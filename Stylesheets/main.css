@@ -1,0 +1,3828 @@
+.micondd2:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -4px -5px;
+    top: 50%;
+    left: 0;
+    margin-top: -3px;
+    position: absolute;
+}
+
+#main_nav.fix .micondd2:before, #main_nav.fix .main_lnk.lnk:hover .micondd2:before,
+#main_nav.subnav .main_lnk.lnk .micondd2:before {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -4px -22px;
+}
+
+.expwrap .micondd2:before {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -3px -38px;
+    width: 14px;
+}
+
+.miconlogin:before, #main_nav.fix .usersignin:hover .icowrap .miconlogin:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -19px 0px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -11px;
+    position: absolute;
+}
+
+.mn-fix .usersignin .icowrap .miconlogin:before, .mn-fix .usersignin .icowrap .miconlogin:before {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -19px -20px;
+}
+
+.empwrap .txtbig .mico {
+    display: inline-block;
+    width: 10px;
+    position: relative;
+    height: 10px;
+}
+
+.empwrap .txtbig .mico:before {
+    content: '';
+    width: 10px;
+    height: 8px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -45px -7px;
+    top: 50%;
+    left: 0;
+    margin-top: -3px;
+    position: absolute;
+}
+
+.empwrap:hover .txtbig .mico:before {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -45px -27px;
+}
+
+.inputwrap .mico.miconsearch:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -3px -55px;
+    top: 50%;
+    left: 0;
+    margin-top: -7px;
+    position: absolute;
+}
+
+.expwrap .mico.miconexp:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -44px -44px;
+    top: 50%;
+    left: 0;
+    margin-top: -7px;
+    position: absolute;
+}
+
+.inputwrap .mico.miconloc:before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -24px -44px;
+    top: 50%;
+    left: 0;
+    margin-top: -7px;
+    position: absolute;
+}
+
+.frmbtnwrap .mico.miconfind:before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -97px -4px;
+    top: 50%;
+    left: 0;
+    margin-top: -7px;
+    position: absolute;
+}
+
+.resumebtnwrap .mico.miconupload:before {
+    content: '';
+    width: 31px;
+    height: 22px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -60px -4px;
+    top: 50%;
+    left: 0;
+    margin-top: -11px;
+    position: absolute;
+    transition: background 0.3s ease;
+}
+
+.resumebtnwrap:hover .mico.miconupload:before {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -60px -34px;
+}
+
+.tp_jobhead .mico.miconjobs:before {
+    content: '';
+    width: 17px;
+    height: 15px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -23px -64px;
+    top: 50%;
+    left: 0;
+    margin-top: -7px;
+    position: absolute;
+}
+
+.tp_jobhead.walkins .mico:before {
+    content: '';
+    width: 72px;
+    height: 24px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -6px -92px;
+    top: 50%;
+    left: 0;
+    margin-top: -12px;
+    position: absolute;
+}
+
+.tp_jobhead .mico.miconrec:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -44px -62px;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    position: absolute;
+}
+
+.tp_hirenow .tp_jobhead .mico.miconhiring:before {
+    content: '';
+    width: 19px;
+    height: 19px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -66px -62px;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    position: absolute;
+}
+
+span.mico.miconlisting:before {
+    content: '';
+    width: 12px;
+    height: 10px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -4px -73px;
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    position: absolute;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#main_section {
+    min-width: 990px;
+}
+
+#header {
+    height: 320px;
+    position: relative;
+    box-shadow: 0 3px 3px -3px #333;
+}
+
+#header .bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/header_bg.jpg) center top no-repeat;
+    background-size: cover;
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='http://media.monsterindia.com/seeker_2014/seeker_2015/images/header_bg.jpg', sizingMethod='scale');
+}
+
+#main_nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 52px;
+    transition: background 0.3s linear;
+    z-index: 109;
+    text-align: center;
+}
+
+.hamwrap {
+    padding: 0px 0px 0px 20px;
+}
+
+.hamwrap .hammain {
+    padding: 19px 9px 20px 9px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hamwrap .hammain:hover {
+    background: #652891;
+}
+
+.hamwrap .hammain span {
+    width: 18px;
+    display: block;
+    background: #fff;
+    height: 3px;
+}
+
+.hamwrap .hammain:hover span {
+    background: #fff;
+}
+
+.hamwrap .hammain span.mrgn {
+    margin: 2px 0px;
+}
+
+.logo {
+    display: block;
+    width: 134px;
+    height: 20px;
+    outline: 0;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/logo.png) no-repeat center center;
+    margin-left: 5px;
+    margin-top: 14px;
+}
+
+.usersignin {
+    display: block;
+    margin-right: 5px;
+    padding: 8px 10px 8px 55px;
+    position: relative;
+    text-decoration: none;
+    outline: 0;
+    transition: background 0.3s ease;
+    color: #fff;
+}
+
+.usersignin.signup {
+    margin-right: 0px;
+    padding: 16px 10px 16px 55px;
+    border-left: 1px #bfbfbf solid;
+    display: none;
+}
+
+.fix .usersignin.signup {
+    display: block;
+}
+
+.usersignin .icowrap {
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    left: 5px;
+    top: 10px;
+    color: #71509d;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.usersignin.signup .icowrap {
+    height: 21px;
+    width: 21px;
+    padding: 7px;
+}
+
+.usersignin .txtsmall {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.icowrap .miconsignup {
+    height: 20px;
+    width: 20px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat 1px 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.usersignin .txtbig {
+    font-size: 17px;
+}
+
+.usersignin:hover .icowrap .miconsignup {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat 1px -20px;
+}
+
+.usersignin:hover {
+    background: #fff;
+}
+
+.usersignin:hover .icowrap {
+    background: #71509d;
+    color: #fff;
+}
+
+.usersignin:hover .txtsmall, .usersignin:hover .txtbig {
+    color: #71509d;
+}
+
+.empwrap {
+    width: 185px;
+    padding: 7px 0px;
+    text-decoration: none;
+    outline: 0;
+    display: block;
+    color: #9b9b9b;
+    text-align: center;
+    background: #fff;
+}
+
+.fix .empwrap {
+    display: none;
+}
+
+.empwrap .txtbig {
+    font-size: 17px;
+}
+
+.empwrap .txtbig .mico {
+    font-size: 10px;
+}
+
+.empwrap .txtsmall {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+
+.empwrap:hover {
+    background: #71509d;
+    color: #fff;
+}
+
+.navlink {
+    margin: 0px 10px;
+}
+
+.main_lnk.lnk {
+    line-height: 52px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 5px;
+}
+
+.main_lnk.lnk .mico {
+    height: 52px;
+    margin-left: 10px;
+    position: relative;
+    width: 8px;
+}
+
+.navlink:hover .main_lnk.lnk {
+    color: #fff;
+}
+
+.main_lnk.lnk:after {
+    background: #fff;
+    bottom: 10px;
+}
+
+.navlink:hover .main_lnk.lnk:after {
+    width: 100%;
+}
+
+.mainnavwrap {
+    display: inline-block;
+    height: 52px;
+}
+
+.ddsubnavbg {
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0px;
+    height: 420px;
+    z-index: 99;
+    position: fixed;
+    display: none;
+    background: #f4f4f4;
+}
+
+.ddnavbg {
+    position: fixed;
+    top: 52px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.5);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#50000000, endColorstr=#50000000);
+    zoom: 1;
+    z-index: 99;
+    display: none;
+}
+
+.ddnav {
+    position: fixed;
+    top: 82px;
+    left: 0;
+    right: 0;
+    z-index: 110;
+    overflow: hidden;
+    display: none;
+}
+
+body.top_banner .ddsubnavbg {
+    top: 52px;
+}
+
+body.top_banner .ddnav {
+    top: 52px;
+}
+
+.ddnavinnr {
+    max-width: 1345px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 45px;
+    min-width: 900px;
+}
+
+.ddlnkwrap {
+    width: 170px;
+    padding-right: 30px;
+}
+
+.ddlnkwrap.big1 {
+    width: 190px;
+}
+
+.ddlnkwrap.big {
+    width: 300px;
+}
+
+.ddhead {
+    font-size: 13px;
+    color: #252525;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.spcr {
+    width: 1px;
+    background: #c3c3c3;
+    height: 170px;
+}
+
+.ddtxtrgt {
+    width: 330px;
+    color: #3b3b3b;
+}
+
+.ddtxtrgt .ddhead {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.ddlnk {
+    display: block;
+    text-decoration: none;
+    margin: 5px 0px;
+    line-height: 26px;
+    position: relative;
+    padding-left: 5px;
+    color: #3b3b3b;
+}
+
+.ddlnk .txt {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.ddlnk:before {
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 100%;
+    background: #e6e6e6;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease;
+}
+
+.ddlnk:hover {
+    color: #652891;
+}
+
+.ddlnk:hover:before {
+    width: 100%;
+}
+
+.ddrgtwrap {
+    padding-left: 80px;
+}
+
+#main_nav.subnav {
+    background: #f4f4f4 !important;
+}
+
+#main_nav.fix {
+    background: #fff;
+    position: fixed;
+}
+
+#main_nav.fix .hamwrap .hammain span, #main_nav.subnav .hamwrap .hammain span {
+    background: #652891;
+}
+
+#main_nav.fix .hamwrap .hammain:hover span, #main_nav.subnav .hamwrap .hammain:hover span {
+    background: #fff;
+}
+
+#main_nav.fix .hamwrap .hammain:hover {
+    background: #652891;
+}
+
+#main_nav.fix .hamwrap .hammain:hover span {
+    background: #fff;
+}
+
+#main_nav.fix .logo, #main_nav.subnav .logo {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/logo_color.png) no-repeat center center;
+}
+
+#main_nav.fix .usersignin:hover {
+    background: #652891;
+}
+
+#main_nav.fix .usersignin .txtsmall, #main_nav.fix .usersignin .txtbig,
+#main_nav.subnav .usersignin .txtsmall, #main_nav.subnav .usersignin .txtbig {
+    color: #71509d;
+}
+
+#main_nav.fix .ddnav {
+    top: 52px;
+}
+
+#main_section.top_banner #main_nav.fix .ddsubnavbg {
+    top: 0px;
+}
+
+#main_nav.fix .usersignin:hover .txtsmall, #main_nav.fix .usersignin:hover .txtbig {
+    color: #fff;
+}
+
+#main_nav.fix .usersignin:hover .icowrap {
+    background: #fff;
+    color: #71509d;
+}
+
+.mn-fix .usersignin .icowrap, .mn-fix .usersignin .icowrap {
+    background: #71509d;
+    color: #fff;
+}
+
+#main_nav.fix .empwrap, #main_nav.subnav .empwrap {
+    box-shadow: 1px 1px 1px #d3d3d3;
+    border-left: 1px #ddd solid;
+}
+
+#main_nav.fix .empwrap:hover {
+    background: #71509d;
+    color: #fff;
+}
+
+#main_nav.fix .main_lnk.lnk, #main_nav.fix .main_lnk.lnk:hover,
+#main_nav.subnav .main_lnk.lnk {
+    color: #652891;
+}
+
+#main_nav.fix .main_lnk.lnk:after, #main_nav.subnav .main_lnk.lnk:after {
+    background: #652891;
+}
+
+.mainheader {
+    padding: 68px 130px 0px 0px;
+    position: relative;
+    max-width: 1250px;
+    margin: 0 auto;
+    min-width: 825px;
+    height: 200px;
+}
+
+.mainheader.nosocial {
+    padding-right: 0px;
+}
+
+.mainheaderinnr {
+    padding-left: 150px;
+}
+
+.mainheader.nosocial .mainheaderinnr {
+    padding-left: 125px;
+}
+
+.mainheaderinnr .frmwrap {
+    width: 780px;
+    height: 42px;
+    position: relative;
+    padding: 10px;
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.3);
+}
+
+.mainheaderinnr .frmwrap .frmbg {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background: rgba(255, 255, 255, 0.2);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#20ffffff, endColorstr=#20ffffff);
+    zoom: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.frmwrapinnr {
+    transition: all 0.3s ease;
+    height: 42px;
+    text-align: center;
+}
+
+.frmwrapinnr .mainfrm {
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.inputwrap {
+    position: relative;
+    height: 40px;
+    border: 1px #bfbfbf solid;
+    width: 301px;
+    padding: 0px 5px 0px 8px;
+    color: #8f8f8f;
+    background: #fff;
+    margin-right: 10px;
+}
+
+.inputwrap.loc {
+    width: 159px;
+}
+
+.inputwrap .mico {
+    margin-right: 8px;
+    font-size: 12px;
+    width: 14px;
+    height: 40px;
+    position: relative;
+}
+
+.inputwrap .txtbox {
+    width: 278px;
+    display: block;
+    background: none;
+    color: #a3a3a3;
+    line-height: 40px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.inputwrap_sg {
+    position: relative;
+    height: 40px;
+    border: 1px #bfbfbf solid;
+    width: 472px;
+    padding: 0px 5px 0px 8px;
+    color: #8f8f8f;
+    background: #fff;
+    margin-right: 10px;
+}
+
+.inputwrap_sg .txtbox {
+    width: 455px;
+    display: block;
+    background: none;
+    color: #a3a3a3;
+    line-height: 40px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.inputwrap_sg .mico {
+    margin-right: 8px;
+    line-height: 38px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inputwrap.loc .txtbox {
+    width: 120px;
+}
+
+.expwrap {
+    width: 130px;
+    background: #fff;
+    border: 1px #bfbfbf solid;
+    height: 40px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.expwrap .miconexp {
+    position: absolute;
+    left: 8px;
+    color: #a3a3a3;
+    height: 40px;
+    font-size: 13px;
+    top: 0;
+}
+
+.expwrap .micondd2 {
+    position: absolute;
+    right: 5px;
+    color: #a3a3a3;
+    height: 30px;
+    top: 6px;
+    width: 13px;
+}
+
+.expwrap .dropdown_small_wrapper {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    position: relative;
+    height: 40px;
+}
+
+.expwrap .dropdown_small_wrapper .left {
+    padding-left: 30px;
+    color: #a3a3a3;
+    line-height: 40px;
+}
+
+.expwrap .dropdown_small_wrapper .right {
+    display: none !important;
+}
+
+.frmbtnwrap {
+    background: #f19005;
+    color: #fff;
+    width: 128px;
+    height: 42px;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+}
+
+.frmbtnwrap:hover {
+    box-shadow: 0px 0px 2px #eee;
+}
+
+.frmbtnwrap .mico {
+    font-size: 18px;
+    color: #fff;
+    height: 38px;
+    position: absolute;
+    left: 8px;
+    top: 0;
+}
+
+.frmbtnwrap .btnmain {
+    color: #fff;
+    background: none;
+    position: relative;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    width: 128px;
+    height: 42px;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.frmwrap.fix .frmwrapinnr {
+    position: fixed;
+    top: 52px;
+    width: 100%;
+    padding: 10px 0px;
+    background: #f4f4f4;
+    left: 0;
+    right: 0;
+    z-index: 97;
+    border-bottom: 1px #bfbfbf solid;
+    box-shadow: 0 5px 5px -5px #999;
+}
+
+.browsejobs {
+    font-size: 13px;
+    position: Absolute;
+    top: 70px;
+    color: #fff;
+    line-height: 18px;
+    left: 2px;
+}
+
+.browsejobs a.lnk {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+
+.browsejobs a.lnk:after {
+    background: #fff;
+}
+
+.resumebtnwrap {
+    text-decoration: none;
+    background: transparent;
+    background: rgba(255, 255, 255, 0.3);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#30ffffff, endColorstr=#30ffffff);
+    zoom: 1;
+    padding: 12px 10px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 28px;
+    border: 1px #fff solid;
+    transition: background 0.3s linear;
+}
+
+.mainheader.nosocial .resumebtnwrap {
+    padding: 12px 30px;
+}
+
+.resumebtnwrap .mico {
+    height: 22px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 31px;
+    position: relative;
+}
+
+.resumebtnwrap:hover {
+    background: #fff;
+    color: #652891;
+}
+
+.rbtntxt {
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.mn_headershoskele_small {
+    width: 300px;
+    height: 60px;
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    display: none;
+}
+
+#bodysection {
+    background: #fff;
+}
+
+#bodysection .main_section {
+    padding: 0px 0px 38px 33px;
+    max-width: 1330px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bodysection .main_section .tp_jobsection {
+    width: 300px;
+    padding-top: 20px;
+}
+
+.tp_jobwidget {
+    border: 1px #d7d7e4 solid;
+    margin-bottom: 32px;
+}
+
+.tp_jobhead {
+    font-size: 17px;
+    color: #71509d;
+    padding: 12px 0px 12px 15px;
+    line-height: 20px;
+    border-bottom: 1px #d7d7e4 solid;
+    text-transform: uppercase;
+}
+
+.tp_jobhead .mico {
+    width: 18px;
+    margin-right: 5px;
+    height: 18px;
+    position: relative;
+}
+
+.tp_jobhead.walkins {
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.tp_jobhead.walkins .mico {
+    width: 72px;
+    height: 24px;
+    position: relative;
+    display: inline-block;
+}
+
+.tp_jobwidget .tpjobsmain {
+    padding: 12px 15px;
+    border-bottom: 1px #d7d7e4 solid
+}
+
+.tpjob_lnk {
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.tpjob_lnk .tpjobwrap {
+    position: relative;
+    z-index: 2;
+    padding: 4px 0px;
+}
+
+.tpjob_title {
+    font-size: 14px;
+    color: #696969;
+    white-space: nowrap;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+.tpjob_cname {
+    font-size: 12px;
+    color: #f19005;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tpjob_desc {
+    font-size: 13px;
+    color: #696969;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}
+
+.tpjob_lnk:after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    height: 100%;
+    width: 0px;
+    background: #f6f6f6;
+    transition: width 0.5s ease;
+    bottom: 0;
+    z-index: 1;
+}
+
+.tpjob_lnk:before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    height: 100%;
+    width: 0px;
+    background: #f6f6f6;
+    transition: width 0.5s ease;
+    top: 0;
+    z-index: 1;
+}
+
+.tpjob_lnk:hover:before, .tpjob_lnk:hover:after {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.tpjob_lnk:hover .tpjob_title {
+    color: #252525;
+}
+
+.tpjob_date {
+    text-align: right;
+    font-size: 11px;
+    color: #b6b6b6;
+}
+
+.tpjob_lnk:hover .tpjob_date {
+    color: #999;
+}
+
+.tpjob_morewrap {
+    margin-top: 8px;
+    border-top: 1px #d7d7e4 solid;
+    padding: 10px;
+    text-align: right;
+}
+
+a.lnk {
+    font-size: 13px;
+    color: #696969;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+a.lnk:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    background: #61449a;
+    width: 0;
+    height: 1px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+a.lnk:hover {
+    color: #61449a;
+}
+
+a.lnk:hover:after {
+    width: 100%;
+}
+
+.tpjob_spcr {
+    height: 1px;
+    background: #ebebf1;
+    margin: 15px 0px;
+}
+
+.tp_rec {
+    width: 51px;
+    height: 51px;
+    margin-right: 6px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/default_u50x50.jpg) no-repeat center center;
+}
+
+.tp_rec img {
+    display: block;
+    width: 51px;
+    height: 51px;
+    border: 0;
+}
+
+.tp_desc {
+    width: 208px;
+}
+
+.tpnomrgn {
+    margin: 0 !important;
+}
+
+.tprec_job {
+    padding: 15px;
+    background: #f4f3f3;
+}
+
+.tprec_joblnk {
+    text-decoration: none;
+}
+
+.tprec_joblnk:hover .tpjob_title, .tprec_joblnk:hover .tpjob_desc {
+    color: #252525;
+}
+
+.tprec_more {
+    background: #959595;
+    border: 1px #959595 solid;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.tprec_more span {
+    color: #959595;
+}
+
+.tprec_more:hover {
+    background: #fff;
+    color: #959595;
+}
+
+.tpjobswrap {
+    padding: 20px 42px 0px 42px;
+    width: 600px;
+}
+
+.tpjobs_all {
+    width: 600px;
+    position: relative;
+}
+
+.tpjobs_all .tpjob_mainh {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.tpjobs_all.contract .tpjob_mainh {
+    margin-bottom: 10px;
+}
+
+.tpjob_mainh h1 {
+    display: inline-block;
+    padding: 0px 25px 0px 2px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #71509d;
+    background: #fff;
+    line-height: 40px;
+    position: relative;
+}
+
+.tpjob_mainh:before {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    content: '';
+    position: Absolute;
+    background: #d7d7e4;
+}
+
+.tpjob_item {
+    border-bottom: 1px #d7d7e4 solid;
+    padding: 0px 20px 15px 0px;
+    margin-bottom: 25px;
+}
+
+.tpjobs_all.contract .tpjob_item {
+    margin-bottom: 20px;
+    padding: 0px 20px 10px 0px;
+}
+
+.tpjobs_all.contract .tpnomrgn {
+    margin-bottom: 10px !important;
+}
+
+.tpjob_item.nobrdr {
+    border-bottom: none;
+}
+
+.tpjob_d {
+    width: 460px;
+}
+
+.tpjob_rec {
+    width: 110px;
+}
+
+.tpjob_reclogo {
+    width: 110px;
+    height: 40px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/default_clogo.jpg) no-repeat center center;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin-bottom: 5px;
+    transition: box-shadow 0.3s linear;
+}
+
+.tpjob_reclogo:hover {
+    box-shadow: 0px 0px 2px #999;
+}
+
+.tpjob_reclogo img {
+    width: 110px;
+    height: 40px;
+    display: block;
+    outline: 0;
+    border: 0;
+}
+
+.tp_hirenow {
+    border: 1px #d7d7e4 solid;
+}
+
+.tp_hirenow .tp_jobhead {
+    color: #696969;
+}
+
+.tp_hirenow .tp_jobhead .mico {
+    font-size: 24px;
+}
+
+.tb_hirenowitem {
+    position: relative;
+    display: block;
+    color: #696969;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 4px 5px 0px 5px;
+    width: 279px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.tb_hirenowitem .mico {
+    position: relative;
+    line-height: 21px;
+    margin-right: 5px;
+}
+
+.tb_hirenowitem span.mico {
+    width: 10px;
+    display: inline-block;
+    height: 21px;
+}
+
+.tb_hirenowitem .txt {
+    position: relative;
+    width: 80%;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.tb_hirenowitem:before {
+    content: '';
+    position: Absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+    background: #f6f6f6;
+}
+
+.tb_hirenowitem:hover:before {
+    width: 100%;
+}
+
+.tp_empsec {
+    position: relative;
+    width: 314px;
+    box-shadow: -5px 0 5px -5px #aaa, 5px 0 5px -5px #aaa;
+    background: #f9f9f9;
+    border-left: 1px #c7c7c7 solid;
+    border-bottom: 1px #c7c7c7 solid;
+}
+
+.emplogowrap {
+    padding: 5px 8px;
+}
+
+.emplogoh {
+    background: #f9f9f9;
+    border-left: 1px #c7c7c7 solid;
+    position: absolute;
+    height: 40px;
+    line-height: 48px;
+    font-size: 19px;
+    padding-left: 10px;
+    color: #5e5e5e;
+    text-transform: uppercase;
+    left: -1px;
+    top: -40px;
+    z-index: 3;
+    width: 314px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.emplogo {
+    margin: 5px 7px;
+    width: 135px;
+    height: 50px;
+    display: block;
+    outline: 0;
+    transition: box-shadow 0.3s linear;
+}
+
+.emplogo img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    border: 0;
+}
+
+.emplogo:hover {
+    box-shadow: 0px 0px 2px #999;
+}
+
+.emplogo_nav {
+    position: absolute;
+    height: 20px;
+    width: auto;
+    top: -25px;
+    z-index: 4;
+    right: 10px;
+}
+
+.emplogo_navitem {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 2px;
+    background: #dedede;
+}
+
+.emplogo_navitem.active {
+    background: #713e7d;
+}
+
+.emplogo_navitem:hover {
+    background: #a7a7a7;
+}
+
+.emplogo_1 {
+    margin: 5px;
+    width: 110px;
+    height: 40px;
+    display: block;
+    outline: 0;
+    transition: box-shadow 0.3s linear;
+}
+
+.emplogo_1 img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    border: 0;
+}
+
+.emplogo_1:hover {
+    box-shadow: 0px 0px 2px #999;
+}
+
+#career_Services {
+    background: #f2f2f2;
+}
+
+.cs_innr {
+    margin: 0 auto;
+    max-width: 1340px;
+    position: relative;
+    padding: 75px 0px 25px 0px;
+    overflow: hidden;
+}
+
+.cs_head {
+    font-size: 19px;
+    position: absolute;
+    left: 30px;
+    top: 0px;
+    background: #fff;
+    line-height: 40px;
+    padding: 0px 20px;
+    color: #696969;
+    text-transform: uppercase;
+    box-shadow: 0px -6px 5px #999;
+}
+
+.cs_itemwrap {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.cs_itemitem {
+    width: 275px;
+    margin-right: 26px;
+    text-decoration: none;
+    display: block;
+    outline: 0;
+    transition: box-shadow 0.3s linear;
+}
+
+.cs_itemitem img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.cs_itemitem .txt {
+    line-height: 44px;
+    background: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    color: #72469b;
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px #cccccc solid;
+}
+
+.cs_itemitem:hover {
+    box-shadow: 2px -2px 2px #999;
+}
+
+.asideadwrapper {
+    padding: 30px 8px 0px 7px;
+    width: 300px;
+    display: table
+}
+
+.jobs_in_china_banner {
+    padding: 20px 0px 20px 0px;
+    width: 300px;
+}
+
+.jobs_in_china_banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    padding: 30px 7px 0px 0px;
+    width: 300px;
+}
+
+.video img {
+    width: 100%;
+    height: 100%;
+}
+
+.mei {
+    text-decoration: none;
+    display: block;
+    transition: box-shadow 0.3s linear;
+}
+
+.mei img {
+    display: block;
+    border: 0;
+}
+
+.mei:hover {
+    box-shadow: 0px 0px 2px #999;
+}
+
+#adwrapper {
+    padding: 40px 0px;
+    background: #fff;
+}
+
+.adwrappermain {
+    margin: 0 auto;
+    width: 730px;
+}
+
+.getmonster {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 43px;
+    padding: 10px 0px;
+    margin-top: -62px;
+    z-index: 9;
+}
+
+.getmonster:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #402349;
+    border-left: 10px solid transparent;
+}
+
+.getmonster:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33px;
+    height: 10px;
+    background: #804792;
+}
+
+.getmonster .getmonlnk {
+    background: #804792;
+    line-height: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.getmonster .getmonlnk span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.getmonster .getmonlnk:hover {
+    background: #fff;
+}
+
+.getmonster .getmonlnk:hover span {
+    color: #804792;
+}
+
+.lft {
+    float: left;
+}
+
+.rgt {
+    float: right;
+}
+
+.clr:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.bg_white {
+    background: #fff;
+}
+
+.ds_banner_wrap {
+    width: 100%;
+    background: #000000;
+    height: 30px;
+}
+
+.ds_banner_main {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ds_banner_main .smallbanner {
+    width: 925px;
+}
+
+.ds_banner_main .expand_btn {
+    height: 30px;
+    width: 75px;
+    background: #7c6fb8;
+    cursor: pointer;
+}
+
+.mn_topbanner_wrap {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    top: -103px;
+    z-index: 9999;
+    background: #fdffd3;
+    border-bottom: 3px #7c6fb8 solid;
+}
+
+.mn_topbanner {
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+
+.mn_topbanner_space {
+    width: 728px;
+    margin: 0 auto;
+    height: 90px;
+    position: relative;
+}
+
+.mn_topbanner_close {
+    top: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -73px -120px;
+    width: 32px;
+    height: 32px;
+    right: -50px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.mn_headershoskele_big {
+    height: 330px;
+    width: 660px;
+    position: absolute;
+    top: -21px;
+    right: -35px;
+    z-index: 8;
+    display: none;
+}
+
+.empsliderwrap {
+    height: 480px;
+    overflow: hidden;
+}
+
+.empslidermain {
+    height: auto;
+}
+
+.subscrption_wrap {
+    position: absolute;
+    left: 360px;
+    bottom: 10px;
+}
+
+.subscrption_wrap.createjobagent {
+    left: 548px;
+}
+
+.subscrption_txt {
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    color: #fff;
+    line-height: 32px;
+}
+
+.subscrptionbox {
+    border: 1px #af94b6 solid;
+    height: 32px;
+    margin-left: 15px;
+}
+
+.subscrptionbox.err {
+    border: 1px #F00 solid;
+}
+
+.subscrptionbox .subinput {
+    display: block;
+    padding: 0px 10px;
+    line-height: 32px;
+    height: 32px;
+    outline: 0;
+    border: 0;
+    background: none;
+    font-size: 13px;
+    color: #fff;
+    width: 220px;
+}
+
+.subscrptionbox.err .subinput {
+    color: #f00;
+}
+
+.subscrptionbox .subbtn {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+    width: 85px;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    background: rgba(255, 255, 255, 0.3);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#30ffffff, endColorstr=#30ffffff);
+    zoom: 1;
+    transition: background 0.3s linear;
+    color: #fff;
+}
+
+.subscrption_wrap.createjobagent .subbtn {
+    width: 140px;
+}
+
+.subscrptionbox .subbtn:hover {
+    background: #fff;
+    color: #652891;
+}
+
+.pollwrap {
+    border: 1px #d8d8e4 solid;
+    width: 299px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.pollwrap_head {
+    height: 42px;
+    border-bottom: 1px #d8d8e4 solid;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/monsterpoll_logo.jpg) no-repeat 15px center;
+}
+
+.pollwrap_innr {
+    padding: 15px;
+    height: 225px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.poll_que {
+    font-size: 14px;
+    color: #696969;
+}
+
+.pollopt {
+    line-height: 13px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.pollopt .rad {
+    margin: 0px;
+}
+
+.poll_opttxt {
+    margin-left: 3px;
+    line-height: 19px;
+    width: 240px;
+    color: #898989;
+}
+
+.poll_btnwrap {
+    margin-top: 10px;
+}
+
+.poll_btn {
+    width: 78px;
+    border: 1px #61449a solid;
+    height: 28px;
+    font-size: 14px;
+    color: #61449a;
+    display: block;
+    outline: 0;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+    transition: background 0.3s linear;
+}
+
+.poll_btn:hover {
+    color: #fff;
+    background: #61449a;
+}
+
+/* popup */
+.pop_bg {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    position: fixed;
+    background: #252525;
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+    display: none;
+}
+
+.popup_wrap {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    position: fixed;
+    background: none;
+    display: none;
+}
+
+.pop_main {
+    background: transparent;
+    background: rgba(50, 50, 50, 0.4);
+    border-radius: 6px;
+    position: absolute;
+    padding-bottom: 45px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 560px;
+    height: 340px;
+    padding: 10px;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#50252525, endColorstr=#50252525);
+    zoom: 1;
+}
+
+.pop_main_inner {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.pop_head {
+    background: rgb(150, 118, 192); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk2NzZjMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3MTUwOWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(150, 118, 192, 1) 0%, rgba(113, 80, 157, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(150, 118, 192, 1)), color-stop(100%, rgba(113, 80, 157, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(150, 118, 192, 1) 0%, rgba(113, 80, 157, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(150, 118, 192, 1) 0%, rgba(113, 80, 157, 1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(150, 118, 192, 1) 0%, rgba(113, 80, 157, 1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(150, 118, 192, 1) 0%, rgba(113, 80, 157, 1) 100%); /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9676c0', endColorstr='#71509d', GradientType=0 ); /* IE6-8 */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 38px;
+    padding: 0px 5px 0px 10px;
+}
+
+.pop_close {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+    margin-top: 10px;
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -183px -211px;
+}
+
+.popform_wrap {
+    padding: 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 332px;
+}
+
+.inputfieldwrap {
+    border: 1px #d7d7e4 solid;
+}
+
+.inputfieldwrap .inputfield {
+    padding: 0px 10px;
+    line-height: 38px;
+    height: 38px;
+    color: #a8a8a8;
+    background: none;
+    outline: 0;
+    border: 0;
+    display: block;
+    font-size: 14px;
+    width: auto;
+}
+
+.cmmnspcr {
+    height: 20px;
+}
+
+.ddnew {
+    border: 1px #d7d7e4 solid;
+    position: relative;
+    ;
+    cursor: pointer;
+    height: 38px;
+}
+
+.ddnew .mico {
+    position: absolute;
+    right: 5px;
+    color: #a3a3a3;
+    line-height: 30px;
+    font-size: 13px;
+    top: 6px;
+}
+
+.ddnew.bggry {
+    background: #f7f7f7;
+}
+
+.ddnew .dropdown_small_wrapper, .ddnew .dropdown_smaller_wrapper {
+    padding: 0;
+    margin: 0;
+    height: 38px;
+    border: 0;
+    background: none;
+}
+
+.ddnew .dropdown_small_wrapper .left, .ddnew .dropdown_smaller_wrapper .left {
+    padding-left: 10px;
+    line-height: 38px;
+    color: #a8a8a8;
+    padding-right: 30px;
+    overflow: hidden;
+    width: auto !important;
+    float: none;
+    font-size: 14px;
+}
+
+.ddnew .dropdown_small_wrapper .right, .ddnew .dropdown_smaller_wrapper .right {
+    display: none;
+}
+
+.frefinebtn {
+    display: block;
+    background: #673074;
+    border: 1px #673074 solid;
+    border-radius: 4px;
+    color: #fff;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 28px;
+    height: 30px;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.frefinebtn:hover {
+    background: #fff;
+    color: #673074;
+}
+
+.successicon {
+    border-radius: 50%;
+    background: #54981d;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.successicon .miconlisting {
+    color: #fff;
+    font-size: 20px;
+}
+
+.success_msg {
+    font-size: 15px;
+    color: #565656;
+    text-align: center;
+    padding: 30px;
+    height: 300px;
+}
+
+/*loggedin*/
+.subnav .notification_wrap {
+    background: #673074;
+}
+
+.notification_wrap {
+    padding: 14px 0px;
+    bottom: initial;
+}
+
+.fix .notification_wrap {
+    background: #673074;
+}
+
+ul.notify {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.notify li {
+    border-right: 1px #8379b7 solid;
+    padding: 0px 15px 0px 8px;
+    position: relative;
+}
+
+ul.notify li.nobr {
+    border-right: 0;
+}
+
+ul.notify li a {
+    width: 20px;
+    height: 24px;
+    display: block;
+    text-decoration: none;
+    outline: 0;
+}
+
+ul.notify li a.nicon1 {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -46px -29px;
+}
+
+ul.notify li a.nicon2 {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -67px -29px;
+}
+
+ul.notify li a.nicon3 {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -152px -92px;
+}
+
+ul.notify li a.nicon4 {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -151px -62px;
+}
+
+ul.notify li a.nicon5 {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -583px 0px;
+}
+
+ul.notify li a.nicon6 {
+    background: url(http://media.monsterindia.com/seeker_2014/mcom/icon_cart.png) no-repeat left top
+}
+
+ul.notify li .ncount {
+    position: absolute;
+    top: -6px;
+    right: 3px;
+    color: #ffffff;
+    font-size: 8px;
+    border-radius: 16px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    background: rgb(216, 88, 90);
+    background: -moz-linear-gradient(top, rgba(216, 88, 90, 1) 1%, rgba(164, 31, 32, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, rgba(216, 88, 90, 1)), color-stop(100%, rgba(164, 31, 32, 1)));
+    background: -webkit-linear-gradient(top, rgba(216, 88, 90, 1) 1%, rgba(164, 31, 32, 1) 100%);
+    background: -o-linear-gradient(top, rgba(216, 88, 90, 1) 1%, rgba(164, 31, 32, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(216, 88, 90, 1) 1%, rgba(164, 31, 32, 1) 100%);
+    background: linear-gradient(to bottom, rgba(216, 88, 90, 1) 1%, rgba(164, 31, 32, 1) 100%);
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nav_dd {
+    position: absolute;
+    width: 300px;
+    top: 20px;
+    right: -2px;
+    padding: 5px 0;
+    margin-top: 3px;
+    z-index: 110;
+    cursor: auto;
+    display: none;
+}
+
+.nav_dd .navarrw {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    top: 0;
+    right: 20px;
+    margin-left: -5px;
+    border-bottom-color: #bfbfbf;
+    border-width: 0 5px 5px;
+}
+
+.nav_ddinnr {
+    color: #252525;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px #bfbfbf solid;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(153, 153, 153, 1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(153, 153, 153, 1);
+    box-shadow: 0px 0px 4px 0px rgba(153, 153, 153, 1);
+}
+
+.dd_head {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    color: #252525;
+    background: #f9f9f9;
+    text-align: left;
+    border-bottom: 1px solid #e8e8e8;
+    -webkit-box-shadow: 0px 1px 3px rgba(100, 100, 100, 0.40);
+    -moz-box-shadow: 0px 1x 3px rgba(100, 100, 100, 0.40);
+    box-shadow: 0px 1px 3px rgba(100, 100, 100, 0.40);
+}
+
+.nav_ddinnrscroll {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 180px;
+    padding: 0px 5px;
+    margin: 2px 0px;
+    width: 288px;
+}
+
+.nav_ddinnrscroll1 {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 180px;
+}
+
+.nav_ddinnrscroll_innr {
+    height: auto;
+}
+
+.nav_ddinnr .ddliink {
+    color: #a9a9a9;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px #bfbfbf dotted;
+    height: 30px;
+    line-height: 30px;
+}
+
+.nav_ddinnr .ddliink.last {
+    border-bottom: 0;
+}
+
+.nav_ddinnr .ddliink:hover {
+    color: #1f6dca;
+}
+
+.nav_ddinnr .viewall_wrap {
+    background: #f9f9f9;
+    border-top: 1px #e8e8e8 solid;
+    padding: 5px;
+}
+
+.nav_ddinnr .viewall_wrap .view_link {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    line-height: 28px;
+    height: 28px;
+    display: block;
+    text-align: center;
+    background: #869a1c;
+    color: #ffffff;
+    width: 100%;
+    font-size: 14px;
+}
+
+.lnkall .colr {
+    color: #71509d;
+}
+
+.uimgwrap {
+    padding: 8px;
+    cursor: pointer;
+    position: relative;
+    background: #673074;
+    border-left: 1px #fff solid;
+}
+
+.uimg {
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    overflow: Hidden;
+}
+
+.uimg img {
+    width: 36px;
+    height: 36px;
+}
+
+.userinfodd {
+    position: absolute;
+    width: 350px;
+    top: 46px;
+    right: 0px;
+    padding: 5px 0;
+    z-index: 99;
+    cursor: auto;
+    display: none;
+    line-height: 18px;
+}
+
+.userinfodd .navarrw {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    top: 0;
+    right: 22px;
+    border-bottom-color: #d7d7e4;
+    border-width: 0 5px 5px;
+}
+
+.userinfodd_innr {
+    width: 330px;
+    background-color: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    max-height: 180px;
+    overflow: hidden;
+    overflow-y: auto;
+    border: 3px #d7d7e4 solid;
+    height: 250px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    cursor: default;
+    height: auto;
+    padding: 5px 5px 0px 5px;
+    text-align: left;
+}
+
+.uimgwrap:hover .userinfodd {
+    display: block;
+}
+
+.usrname {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    color: #252525;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+.u_emailicon {
+    width: 20px;
+    height: 22px;
+    overflow: hidden;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -176px -77px;
+    margin-right: 5px;
+}
+
+.u_emailtxt {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+    color: #4574b6;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.u_mobicon {
+    width: 20px;
+    height: 22px;
+    overflow: hidden;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -176px -101px;
+    margin-right: 5px;
+}
+
+.u_mobtxt {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5px;
+    color: #252525;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.uactionwrap {
+    height: 30px;
+    background: #f3f3f3;
+    box-shadow: inset 0 4px 5px -4px rgba(0, 0, 0, 0.4);
+    padding: 10px 5px;
+}
+
+.uactionwrap .rgt {
+    margin-left: 8px;
+}
+
+.apply_btn {
+    cursor: pointer;
+    padding: 3px 10px;
+    border: 1px #bfbfbf solid;
+    color: #666666;
+    background: #e7e7e7;
+    text-decoration: none;
+    outline: 0;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.shd_commn:hover {
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(107, 98, 147, 0.4);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(107, 98, 147, 0.4);
+    box-shadow: 2px 2px 3px 0px rgba(107, 98, 147, 0.4);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+.uactionwrap .logout {
+    background: #71509d;
+    color: #ffffff;
+}
+
+/*loggedin*/
+/*hamburger menu*/
+.hamburgermenubg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f7f7f7;
+    z-index: 110;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.8);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+    zoom: 1;
+    z-index: 99;
+    display: none;
+}
+
+.hamburgermenuwrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background: #fff;
+    z-index: 111;
+    left: -250px;
+    border-top: 5px #652891 solid;
+}
+
+.hamnavitem {
+    cursor: pointer;
+}
+
+.hamnavitem .hamnavmainlnkwrap {
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+    border-bottom: 1px #d7d7e4 solid;
+}
+
+.hamnavmainlnkwrap .hamnavmainlnk {
+    font-size: 15px;
+    color: #747474;
+    line-height: 16px;
+}
+
+.hamnavitem .hamnavmainlnk:hover {
+    text-decoration: underline;
+}
+
+.hamnavitem .hamddicon {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.hamnavitem .hamddicon:before {
+    width: 0;
+    content: '';
+    position: absolute;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #767676;
+    top: 5px;
+}
+
+.hamnavitem:hover .hamnavmainlnk {
+    color: #673074;
+}
+
+.hamnavitem:hover .hamddicon:before {
+    border-left: 5px solid #6c3779;
+}
+
+.hamnavitem:hover {
+    background: #d7d7d7;
+}
+
+.hamnavitem:hover {
+    background: #d9d7d7;
+}
+
+.hamsubnav {
+    display: none;
+    position: absolute;
+    left: 248px;
+    top: 0px;
+    width: 250px;
+    bottom: 0;
+    height: 100%;
+    background: #d9d7d7;
+}
+
+.hamnavitem:hover .hamsubnav {
+    display: block;
+}
+
+.hamsubnav .hamsubnavlnk {
+    display: block;
+    padding: 0px 5px 0px 20px;
+    border-bottom: 1px #d3ced4 solid;
+    line-height: 30px;
+    text-decoration: none;
+    color: #747474;
+    text-align: left;
+    background: #e9e8e8;
+    position: relative;
+    font-size: 14px;
+}
+
+.hamsubnav .hamsubnavlnk:before {
+    width: 5px;
+    background: #d9d7d7;
+    left: 0;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    content: '';
+    position: absolute;
+}
+
+.hamsubnav .hamsubnavlnk:hover:before {
+    background: #a7a7a7;
+}
+
+.hamsubnav .hamsubnavlnk:hover {
+    color: #343434;
+    background: #f7f7f7;
+}
+
+.hamsubnav_h {
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #dddbdb;
+    color: #747474;
+    text-align: left;
+    padding-left: 23px;
+    margin-top: 1px;
+}
+
+/*hamburger menu*/
+/*new header*/
+.mn-navwrap {
+    height: 52px;
+    position: relative;
+}
+
+.mn-navinnr {
+    position: relative;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 111;
+}
+
+.mn-navinnr.mn-fix, .mn-navinnr.mn-bgcolr {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mn-navinnr.mn-fix {
+    position: fixed;
+    top: 0;
+    z-index: 127;
+}
+
+.mn-navbg {
+    z-index: 0;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+    background: #f4f4f4;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mn-navbgmsall {
+    position: Absolute;
+    height: 52px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.mn-navinnr.mn-bgcolr .mn-navbgmsall, .mn-navinnr.mn-fix .mn-navbgmsall {
+    background: #673074;
+}
+
+.mn-navinnr.mn-menuhover .mn-navbg {
+    height: 420px;
+}
+
+.mn-navham {
+    position: relative;
+    padding: 19px 10px 20px 10px;
+    cursor: pointer;
+}
+
+.mn-navham span {
+    width: 18px;
+    display: block;
+    background: #fff;
+    height: 3px;
+    transition: all 0.6s ease;
+    opacity: 1;
+}
+
+.mn-navham span.mrgn {
+    margin: 2px 0px;
+}
+
+.mn-navham:hover, .mn-navinnr.mn-menuhover .mn-navham {
+    background: #fff;
+}
+
+.mn-navham:hover span, .mn-navinnr.mn-menuhover .mn-navham span {
+    background: #673074;
+}
+
+.mn-navinnr.mn-menuhover .mn-navham:hover {
+    background: #673074;
+}
+
+.mn-navinnr.mn-menuhover .mn-navham:hover span {
+    background: #fff;
+}
+
+.mn-logo {
+    display: block;
+    width: 134px;
+    height: 20px;
+    outline: 0;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/logo.png) no-repeat center center;
+    margin-left: 5px;
+    margin-top: 14px;
+    position: relative;
+}
+
+.mn-navinnr.mn-menuhover .mn-logo {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/logo_color.png) no-repeat center center;
+}
+
+.mn-mainnav {
+    display: inline-block;
+    height: 49px;
+    overflow: hidden;
+}
+
+.mn-mainnavlnk {
+    display: block;
+    line-height: 52px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 15px 0px 0px;
+    position: relative;
+    margin: 0px 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.mn-mainnavlnk:before {
+    content: '';
+    width: 8px;
+    height: 6px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -4px -5px;
+    top: 50%;
+    right: 0;
+    margin-top: -3px;
+    position: absolute;
+    transition: transform 0.3s ease, background 0s ease;
+}
+
+.mn-mainnavlnk:after {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 0;
+    height: 1px;
+    left: 0;
+    transition: width 0.3s ease, background 0.3s ease;
+    bottom: 10px;
+}
+
+.mn-mainnavlnk:hover:after {
+    width: 100%;
+}
+
+.mn-mainnavlnk:hover:before {
+    transform: rotate(-180deg);
+}
+
+.mn-mainnavlnk.noarrow {
+    padding: 0;
+    line-height: 48px !important;
+}
+
+.mn-mainnavlnk.noarrow:before {
+    content: none;
+}
+
+.mn-navddwrap {
+    position: relative;
+    transition: height 0.3s ease-in-out;
+    height: 0;
+    overflow: hidden;
+}
+
+.mn-navddwrap.mn-active {
+    height: 290px;
+}
+
+.mn-navham.mn-active {
+    background: #fff;
+    z-index: 111;
+}
+
+.mn-navinnr.mn-menuhover .mn-mainnavlnk, .mn-navinnr.mn-menuhover .mn-mainnavlnk.mn-active {
+    color: #673074;
+}
+
+.mn-navinnr.mn-menuhover .mn-mainnavlnk:after, .mn-navinnr.mn-menuhover .mn-mainnavlnk.mn-active:after {
+    background: #673074;
+}
+
+.mn-navinnr.mn-menuhover .mn-mainnavlnk.mn-active:after {
+    width: 100%;
+}
+
+.mn-navinnr.mn-menuhover .mn-mainnavlnk.mn-active:before, .mn-navinnr.mn-menuhover .mn-mainnavlnk:before {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -4px -22px;
+}
+
+.mn-navinnr.mn-menuhover .mn-mainnavlnk.mn-active:before {
+    transform: rotate(-180deg);
+}
+
+.mn-hmnavbg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #f7f7f7;
+    z-index: 110;
+    background: transparent;
+    background: rgba(0, 0, 0, 0.8);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000);
+    zoom: 1;
+    z-index: 99;
+    display: none;
+}
+
+.mn-hamnavmain {
+    position: fixed;
+    top: 52px;
+    bottom: 0;
+    width: 250px;
+    background: #fff;
+    z-index: 111;
+    left: -250px;
+    border-top: 5px #652891 solid;
+}
+
+.mn-navham:before, .mn-navham:after {
+    content: '';
+    height: 2px;
+    width: 22px;
+    position: absolute;
+    transition: transform 0.6s ease;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    mmargin-top: -1.5px;
+}
+
+.mn-navham.mn-active:before {
+    transform: rotate(45deg);
+    background: #673074;
+}
+
+.mn-navham.mn-active:after {
+    transform: rotate(-45deg);
+    background: #673074;
+}
+
+.mn-navinnr.mn-menuhover .mn-navham.mn-active:before {
+    background: #fff;
+}
+
+.mn-navinnr.mn-menuhover .mn-navham.mn-active:after {
+    background: #fff;
+}
+
+.mn-navham.mn-active span {
+    opacity: 0;
+}
+
+.empwrap {
+    position: relative;
+}
+
+.emp_login_wrap {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #fff;
+    border: 2px #71509d solid;
+    z-index: 10;
+    left: 0;
+    padding: 5px 5px 5px 5px;
+}
+
+.empwrap .empdd_mainlnk {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.empwrap:hover .emp_login_wrap {
+    display: none;
+}
+
+.emp_login_wrap .empdd_lnk {
+    display: block;
+    text-decoration: none;
+    line-height: 28px;
+    color: #71509d;
+    position: relative;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.emp_login_wrap .empdd_lnk:before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 0%;
+    background: #71509d;
+    bottom: 3px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.emp_login_wrap .empdd_lnk:hover:before {
+    width: 100%;
+}
+
+.emp_login_wrap .empdd_lnk.mrecruiter {
+    background: #eee;
+}
+
+.emp_login_wrap .empdd_lnk.mrecruiter:before {
+    content: none;
+}
+
+.mn-navinnr.mn-menuhover .usersignin .txtsmall, .mn-navinnr.mn-menuhover .usersignin .txtbig {
+    color: #71509d;
+}
+
+.mn-navinnr.mn-menuhover .usersignin .icowrap {
+    background: #71509d;
+    color: #fff;
+}
+
+.up_resume_btn {
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #e4e4e4 100%);
+    background: -webkit-linear-gradient(top, #ffffff 0%, #e4e4e4 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #e4e4e4 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e4e4', GradientType=0 );
+    color: #673074;
+    padding: 11px 20px 9px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    margin: 8px 10px 0px 0px;
+    border-radius: 4px;
+    border: 1px #e4e4e4 solid;
+    line-height: 14px;
+}
+
+.mn-fix .usersignin.signup {
+    display: block;
+}
+
+.mn-fix .empwrap {
+    display: none;
+}
+
+/*new header*/
+@media all and (max-width:1349px) {
+    #bodysection .main_section {
+        padding: 0px 0px 25px 10px;
+    }
+
+    .tpjobswrap {
+        padding: 20px 25px 0px 25px;
+    }
+
+    #bodysection .main_section .tp_jobsection {
+        width: 270px;
+    }
+
+    #bodysection .main_section {
+        max-width: 1280px;
+    }
+
+    .tp_desc {
+        width: 128px;
+    }
+
+    .mainheaderinnr {
+        padding-left: 100px;
+    }
+
+    .subscrption_wrap {
+        bottom: 10px;
+        left: 345px;
+    }
+
+    .subscrption_wrap.createjobagent {
+        left: 440px;
+    }
+
+    .subscrption_wrap.createjobagent .subbtn {
+        width: 100%;
+    }
+
+    .subscrption_txt {
+        float: none !important;
+        margin-bottom: 5px;
+    }
+
+    .subscrptionbox {
+        float: none !important;
+        margin-left: 0px;
+    }
+
+    .mainheader.nosocial {
+        padding-right: 40px;
+    }
+
+    .mainheader.nosocial .mainheaderinnr {
+        padding-left: 80px;
+    }
+
+    .video {
+        padding: 30px 0px 0px 0px;
+        width: 270px;
+    }
+
+    .jobs_in_china_banner {
+        padding: 20px 0px 20px 0px;
+        width: 268px;
+    }
+
+    .jobs_in_china_banner img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media all and (max-width:1279px) {
+    #bodysection .main_section {
+        padding: 0px 0px 25px 10px;
+    }
+
+    .tpjobswrap {
+        padding: 20px 15px 0px 15px;
+        width: 415px;
+    }
+
+    #bodysection .main_section .tp_jobsection {
+        width: 220px;
+    }
+
+    .tpjobs_all {
+        width: 415px;
+    }
+
+    .tpjob_item {
+        padding-right: 0px;
+    }
+
+    .tpjobs_all .tpjob_mainh {
+        margin-bottom: 10px;
+    }
+
+    .tpjob_d {
+        width: 300px;
+    }
+
+    .tp_desc {
+        width: 128px;
+    }
+
+    .tb_hirenowitem {
+        width: 185px;
+    }
+
+    #bodysection .main_section {
+        max-width: 998px;
+    }
+
+    .cs_itemitem {
+        width: 230px;
+        margin-right: 15px;
+    }
+
+    .cs_itemwrap {
+        width: 966px;
+    }
+
+    .mainheaderinnr {
+        padding-left: 25px;
+    }
+
+    .mainheader {
+        padding-right: 70px;
+    }
+
+    .mainheaderinnr .frmwrap {
+        width: 714px;
+    }
+
+    .inputwrap {
+        width: 235px;
+    }
+
+    .inputwrap .txtbox {
+        width: 212px;
+    }
+
+    .browsejobs, .browsejobs a.lnk {
+        font-size: 12px !important;
+    }
+
+    .empwrap {
+        width: 135px;
+    }
+
+    .mainheader.nosocial {
+        padding-right: 20px;
+    }
+
+    .mainheader.nosocial .mainheaderinnr {
+        padding-left: 20px;
+    }
+
+    .video {
+        padding: 30px 7px 0px 0px;
+        width: 220px;
+    }
+
+    .up_resume_btn {
+        display: none;
+    }
+
+    .jobs_in_china_banner {
+        padding: 20px 0px 20px 0px;
+        width: 220px;
+    }
+
+    .jobs_in_china_banner img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*dropdowns*/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear_both {
+    clear: both;
+}
+
+.select_popup {
+    height: 250px;
+    width: 279px;
+    overflow: auto;
+    border: 1px #cecece solid;
+    background: #ffffff;
+    z-index: 100000;
+    top: 33px;
+    left: 0px;
+    position: absolute;
+    display: none;
+    font-size: 12px;
+    zoom: 1;
+}
+
+.select_popup_inner {
+    width: 259px;
+    height: auto;
+}
+
+.select_popup_header {
+    padding: 5px;
+    border-bottom: 1px #d3d3d3 solid;
+}
+
+.select_popup_header .left {
+    font-size: 9px;
+    color: #666666;
+    font-weight: bold;
+    line-height: 11px;
+    height: 11px;
+}
+
+.select_popup_header .right {
+    height: 11px;
+    width: 12px;
+}
+
+.select_popup_header .right img {
+    width: 12px;
+    height: 11px;
+    height: 11px;
+}
+
+.select_item {
+    width: 249px;
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.select_item:hover, .selectitem_bg {
+    background: #dedede;
+}
+
+.select_item .left {
+    padding: 0px 5px;
+    margin: 0;
+    line-height: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 14px;
+    color: #4F4F4F;
+}
+
+.select_item .right {
+    width: 225px;
+    height: 12px;
+    font-size: 11px;
+    line-height: 12px;
+    color: #00000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.selected_items {
+    width: 250px;
+    border: 1px #cdcdcd solid;
+    border-top: 0px;
+    margin-top: 0px;
+    display: none;
+    min-height: 19px;
+    margin-bottom: 10px;
+}
+
+.selected_items .main_header {
+    border-bottom: 0px #cdcdcd solid;
+    background: #eeeeee;
+    color: #000000;
+    padding: 2px 3px;
+    font-weight: bold;
+    font-size: 11px;
+    height: 15px;
+}
+
+.selected_items_inner {
+    width: 250px;
+    max-height: 0px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.selected_item {
+    width: 99%;
+    padding: 3px 5px;
+}
+
+.selected_item:hover {
+    background: #dddddd;
+}
+
+.selected_item .left {
+    width: 170px;
+    font-size: 11px;
+    height: 11px;
+    line-height: 11px;
+    color: #555555;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.selected_item .right, .selected_items_inner .right img {
+    width: 11px;
+    height: 11px;
+}
+
+.selected_item .right {
+    padding: 0px 5px;
+    margin: 0;
+    line-height: 11px;
+}
+
+.select_item .check_container {
+    height: 12px;
+    position: relative;
+    width: 12px;
+    overflow: hidden;
+}
+
+.select_item .plus_minus {
+    width: 12px;
+    overflow: hidden;
+}
+
+.plus_minus {
+    height: 12px;
+    position: relative;
+    width: 12px;
+    overflow: hidden;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -189px -174px;
+}
+
+.plus_minus.minus {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -201px -174px;
+}
+
+.close_select {
+    cursor: pointer;
+}
+
+.multiselect_close, .open_singleselect {
+    position: relative;
+}
+
+.single_select {
+    position: absolute;
+    top: 33px;
+    border: 1px #626262 solid;
+    border-top: none;
+    width: 80px;
+    z-index: 90;
+    background: #ffffff;
+    display: none;
+}
+
+.select_large {
+    left: 0;
+    width: 215px;
+}
+
+.single_select ul.options {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+}
+
+.single_select ul.options li {
+    padding: 0px 1px;
+}
+
+.single_select ul.options li a {
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #555555;
+    line-height: 15px;
+}
+
+.single_select ul.options li a:hover {
+    background: #663399;
+    color: #ffffff;
+}
+
+.dropdown_small_wrapper {
+    border: 1px #626262 solid;
+    width: 254px;
+    outline: 0;
+    font-size: 12px;
+    height: 30px;
+    cursor: pointer;
+    background: #ffffff;
+}
+
+.dropdown_small_wrapper .left {
+    width: 175px;
+    height: 30px;
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 31px;
+    color: #4f4f4f;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dropdown_small_wrapper .right {
+    height: 30px;
+    position: relative;
+    width: 24px;
+    overflow: hidden;
+}
+
+.dropdown_small_wrapper .right.clip_image {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) 0px 0px no-repeat;
+    width: 24px;
+    height: 30px;
+}
+
+.dropdown_small_wrapper .right.clip_image.closedropdown {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) -308px -150px no-repeat;
+}
+
+.dropdown_small_active {
+    -webkit-box-shadow: 3px 4px 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 3px 4px 5px rgba(0, 0, 0, .1);
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, .1);
+}
+
+.select_item .left.check, .check {
+    padding: 0;
+    margin-left: 5px;
+    height: 12px;
+    width: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -30px -1px;
+}
+
+.select_item .left.check.selected, .check.selected {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -30px -18px;
+}
+
+.separator {
+    margin-top: 10px;
+    position: relative;
+    height: 435px;
+    width: 20px;
+    background: url(http://media.monsterindia.com/v2/recruiter/2.1/new_search/seprarator.gif) repeat-y center;
+}
+
+.separator .or_container {
+    height: 20px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    overflow: hidden;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -308px -57px;
+}
+
+.iconclose {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -169px -176px;
+    overflow: hidden;
+}
+
+.jq1 {
+    width: 99%;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+.clear_left {
+    clear: left;
+}
+
+.select_item .left input[type="radio"] {
+    margin: 0;
+}
+
+.jq2 {
+    display: table;
+    width: 99%;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+
+.jq3 {
+    display: table;
+    width: 99%;
+    background: none;
+    font-weight: bold;
+    cursor: default;
+    border-bottom: dotted 1px #bfbfbf;
+}
+
+.jq4 {
+    border-bottom: dotted 1px #bfbfbf;
+}
+
+#show_result_form_id {
+    background: #ffffff;
+}
+
+.dropdown_smaller_wrapper {
+    border: 0px #626262 solid;
+    width: 254px;
+    outline: 0;
+    font-size: 12px;
+    height: 31px;
+    cursor: pointer;
+}
+
+.dropdown_smaller_wrapper .left {
+    width: 220px;
+    height: 31px;
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 31px;
+    color: #a3a3a3;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dropdown_smaller_wrapper .right {
+    width: 25px;
+    height: 31px;
+}
+
+.dropdown_smaller_wrapper .right {
+    height: 41px;
+    position: relative;
+    width: 24px;
+    overflow: hidden;
+}
+
+.dropdown_smaller_wrapper .right.clip_image.closedropdown {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) -308px -150px no-repeat;
+}
+
+.ns_popup_fade {
+    background: rgb(0, 0, 0);
+    background: transparent\9;
+    background: rgba(0, 0, 0, 0.5);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#4c000000, endColorstr=#4c000000);
+    zoom: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: none;
+}
+
+.ns_popup_wrapper {
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    z-index: 10000;
+    display: none;
+}
+
+.ns_popup_main {
+    background: #ffffff;
+    position: relative;
+    height: auto;
+    border: 1px #bfbfbf solid;
+    padding-bottom: 10px;
+    text-align: left;
+    border: 5px solid #3d1365;
+    left: -50%;
+    min-width: 200px;
+    width: auto;
+    min-height: 50px;
+    height: auto;
+}
+
+.np_popup_header {
+    height: 40px;
+    position: relative;
+    background: #8259a8;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8259a8), color-stop(51%, #8259a8), color-stop(51%, #632f93), color-stop(100%, #632f93));
+    background: -webkit-linear-gradient(top, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    background: -o-linear-gradient(top, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    background: -ms-linear-gradient(top, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    background: linear-gradient(to bottom, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8259a8', endColorstr='#632f93', GradientType=0 );
+}
+
+.np_pop_heading {
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.mn_popclose_btn {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -73px -120px;
+    cursor: pointer;
+}
+
+.mn_popupmain_text {
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: #252525;
+}
+
+/* For drop Down */
+
+.dropdown_small_wrapper {
+    width: 154px;
+}
+
+.dropdown_small_wrapper .left {
+    width: 120px;
+    text-align: left
+}
+
+.input_style {
+    border: solid 1px #bfbfbf;
+    width: 651px;
+    font-size: 15px;
+}
+
+.button {
+    background: #7f7f7f;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer
+}
+
+.overlay {
+    background: none repeat scroll 0 0 #000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.show_search_suggestions {
+    border: 1px solid #BFBFBF;
+    display: none;
+    font-size: 11px;
+    left: 0;
+    top: 40px;
+    z-index: 2 !important;
+}
+
+.search_suggestion_header {
+    background-color: #F6F3FD;
+    color: #666666;
+    padding: 8px;
+    position: relative;
+}
+
+.search_suggestion_body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 5px;
+}
+
+.search_suggestion_body ul#suggestions {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#suggestions li {
+    background-color: #F2F5E4;
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    margin: 3px 3px 0px 3px;
+    padding: 3px 3px 2px;
+}
+
+#suggestions .ns_check_wrap {
+    margin-bottom: 0;
+}
+
+.ns_colbox .ns_lt {
+    margin-bottom: 3px;
+}
+
+.close_search_suggestions {
+    width: 30px;
+    height: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -73px -120px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+.success_box {
+    border: #54981d 1px solid;
+    background: #f7f9ef;
+    width: 400px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.box_wrap {
+    width: 288px;
+    border: 1px #bfbfbf solid;
+    background: #ffffff;
+    margin: 0px 0px 25px 0px;
+    padding: 5px;
+    text-decoration: none;
+    outline: 0;
+    color: #454545;
+    transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    position: relative;
+    z-index: 2;
+    position: relative;
+}
+
+.box_wrap .mrgn {
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.box_wrap .mrgn a {
+    color: #000;
+}
+
+.box_wrap .btxt.mrgntop {
+    margin-top: 10px;
+}
+
+.box_wrap .btxt .bold {
+    color: #000;
+}
+
+#selExp {
+    width: 98px !important;
+    padding: 6px 5px 3px 27px !important;
+}
+
+#role_container.ddnew, #industry_container.ddnew, #jobCategory_container.ddnew {
+    height: auto !important;
+}
+
+#role_container, #industry_container, #jobCategory_container {
+    border: 1px #d7d7e4 solid;
+    background: #fff;
+    position: relative;
+    height: 38px !important;
+}
+
+#role_container .ddnew .dropdown_small_wrapper .right.clip_image,
+#industry_container .ddnew .dropdown_small_wrapper .right.clip_image,
+#jobCategory_container .ddnew .dropdown_small_wrapper .right.clip_image {
+    position: absolute;
+    right: 5px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -3px -38px;
+    height: 8px;
+    top: 50%;
+    margin-top: -4px;
+    width: 14px;
+}
+
+#role_container .ddnew .micondd2, #industry_container .ddnew .micondd2,
+#jobCategory_container .ddnew .micondd2 {
+    display: none;
+}
+
+#role_container .dropdown_small_wrapper.open_multi_select, #industry_container .dropdown_small_wrapper.open_multi_select,
+#jobCategory_container .dropdown_small_wrapper.open_multi_select {
+    border: 0;
+    height: 38px;
+    width: auto !important;
+}
+
+#role_container .dropdown_small_wrapper.open_multi_select .left,
+#industry_container .dropdown_small_wrapper.open_multi_select .left,
+#jobCategory_container .dropdown_small_wrapper.open_multi_select .left {
+    float: none !important;
+    line-height: 38px;
+    font-size: 14px;
+    color: #a3a3a3;
+    height: 38px;
+}
+
+#exp_container_Agent .open_singleselect .dropdown_smaller_wrapper .right.clip_image,
+#role_container .dropdown_small_wrapper.open_multi_select .right.clip_image,
+#industry_container .dropdown_small_wrapper.open_multi_select .right.clip_image,
+#jobCategory_container .dropdown_small_wrapper.open_multi_select .right.clip_image {
+    position: absolute;
+    right: 5px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -3px -38px;
+    height: 8px;
+    top: 50%;
+    margin-top: -2px;
+    width: 14px;
+    display: block !important;
+}
+
+#role_container .dropdown_small_wrapper.open_multi_select .right.clip_image.closedropdown,
+#industry_container .dropdown_small_wrapper.open_multi_select .right.clip_image.closedropdown,
+#jobCategory_container .dropdown_small_wrapper.open_multi_select .right.clip_image.closedropdown {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -274px -334px;
+    width: 12px;
+    height: 12px;
+    top: 15px;
+}
+
+#role_container, #industry_container, #jobCategory_container {
+    border: 0;
+    height: auto !important;
+    right: 0;
+    left: 0;
+    background: none;
+}
+
+#role_container #selRol_parent, #industry_container #ind_parent,
+#jobCategory_container #cat_parent {
+    border: 1px #d7d7e4 solid;
+    position: relative !important;
+}
+
+#ind_popup, #cat_popup, #selRol_popup {
+    width: auto !important;
+    left: 0;
+    right: 0;
+    top: 38px;
+}
+
+#exp_container_Agent .open_singleselect {
+    width: auto !important;
+    float: none !important;
+}
+
+#exp_container_Agent .open_singleselect .dropdown_smaller_wrapper {
+    width: auto !important;
+}
+
+.select_popup_inner .input_style {
+    padding: 9px 5px;
+}
+
+.pop_main_inner .mico.micondd2 {
+    display: none;
+}
+
+#selExp_Agent {
+    padding: 1px 5px 6px 5px !important;
+}
+
+#exp_container_Agent .open_singleselect .single_select {
+    top: 39px !important;
+    left: 0;
+    right: 0;
+    width: auto !important;
+}
+
+#auto_key_wrap .ui-autocomplete {
+    z-index: 8 !important;
+}
+
+.error_box {
+    padding: 5px 10px;
+    border: #FF0000 1px solid;
+    background: #FFF2F2;
+    line-height: 16px;
+    color: #454545;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.switchtolnk {
+    line-height: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px #bfbfbf solid;
+    display: block;
+    text-align: right;
+    padding: 0px 10px;
+    color: #787878;
+}
+
+.switchtolnk:hover {
+    background: #fff;
+}
+
+#walkinpopup {
+    display: none;
+}
+
+.alliance {
+    border: 0px #d7d7e4 solid;
+    width: 600px;
+    margin-top: 30px;
+    height: 248px;
+}
+
+.alliancewrap {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.alliancepanel {
+    width: 48%;
+}
+
+.sbox_wrap {
+    display: block;
+    height: auto;
+    border: 1px #bfbfbf solid;
+    background: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    outline: 0;
+    color: #454545;
+    position: relative;
+}
+
+.sbox_wrap .simg_wrap {
+    width: 100%;
+    display: block;
+    border: 0;
+}
+
+.sbox_wrap .sbtxt {
+    font-size: 13px;
+    color: #454545;
+    line-height: 16px;
+    margin-top: 10px;
+    min-height: 77px;
+}
+
+.icon_cart {
+    background: url(http://media.monsterindia.com/seeker_2014/mcom/icon_cart.png) no-repeat left 7px;
+    width: 21px;
+    height: 35px;
+    margin: 8px 15px 0px 0px;
+    position: relative
+}
+
+.icon_cart .ncount {
+    position: absolute;
+    top: 0px;
+    right: -12px;
+    color: #ffffff;
+    font-size: 8px;
+    border-radius: 16px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    background: rgb(216, 88, 90);
+

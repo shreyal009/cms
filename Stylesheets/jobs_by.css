@@ -1,0 +1,611 @@
+.bodysectioninnr {
+    min-width: 980px;
+    max-width: 1345px;
+    width: 100;
+    margin: 0 auto;
+}
+
+.breadcrubwrap {
+    padding: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #696969;
+    padding-left: 30px;
+}
+
+.breadcrubwrap .lnk {
+    font-size: 14px;
+}
+
+.job_tbl {
+    display: table;
+    width: 100%;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.job_tblcell {
+    display: table-cell;
+    width: auto;
+    vertical-align: top;
+}
+
+.job_tblcell.section_lft {
+    padding: 0px 30px;
+}
+
+.job_tblcell.section_rgt {
+    width: 316px;
+    max-width: 316px;
+    padding-right: 30px;
+}
+
+.job_tblcell.section_lft1 {
+    width: 265px;
+    max-width: 265px;
+    padding-left: 30px;
+}
+
+.tabcommnh {
+    padding: 0px 20px;
+    background: #fff;
+    color: #673074;
+    line-height: 40px;
+    border: 1px #d7d7e4 solid;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.tabcommnh:after {
+    content: '';
+    bottom: -2px;
+    height: 2px;
+    background: #fff;
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.tb_body {
+    padding: 10px;
+    border: 1px #d7d7e4 solid;
+    background: #fff;
+}
+
+.tb_bodyinnr {
+    background: #f7f7f7;
+    display: table;
+    width: 100%;
+}
+
+.tb_bodyinnr.stwrap {
+    background: none;
+}
+
+.tb_bodyinnr.stwrap.tbnopadd {
+    padding: 0px 5px;
+}
+
+.tb_bodyinnr .cell {
+    width: 25%;
+    padding: 30px 20px;
+    position: relative;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.tb_bodyinnr.col3 .cell {
+    width: 33.333333%;
+}
+
+.tb_bodyinnr .cell.brdr:after {
+    content: '';
+    right: 0;
+    position: absolute;
+    width: 1px;
+    top: 5px;
+    bottom: 5px;
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(215, 215, 228, 0) 0%, rgba(215, 215, 228, 1) 35%, rgba(215, 215, 228, 1) 65%, rgba(215, 215, 228, 0) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(215, 215, 228, 0)), color-stop(25%, rgba(215, 215, 228, 1)), color-stop(75%, rgba(215, 215, 228, 1)), color-stop(100%, rgba(215, 215, 228, 0)));
+    background: -webkit-linear-gradient(top, rgba(215, 215, 228, 0) 0%, rgba(215, 215, 228, 1) 35%, rgba(215, 215, 228, 1) 65%, rgba(215, 215, 228, 0) 100%);
+    background: -o-linear-gradient(top, rgba(215, 215, 228, 0) 0%, rgba(215, 215, 228, 1) 35%, rgba(215, 215, 228, 1) 65%, rgba(215, 215, 228, 0) 100%);
+    background: -ms-linear-gradient(top, rgba(215, 215, 228, 0) 0%, rgba(215, 215, 228, 1) 35%, rgba(215, 215, 228, 1) 65%, rgba(215, 215, 228, 0) 100%);
+    background: linear-gradient(to bottom, rgba(215, 215, 228, 0) 0%, rgba(215, 215, 228, 1) 35%, rgba(215, 215, 228, 1) 65%, rgba(215, 215, 228, 0) 100%);
+}
+
+.tabcommnh1 {
+    padding: 0px 20px;
+    color: #673074;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 0;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.tb_bodyinnr.stwrap .cell {
+    padding: 10px 0px;
+}
+
+.tb_bodyinnr.stwrap .cell.padd {
+    padding-left: 20px;
+}
+
+.statewrap {
+    border: 1px #d7d7e4 solid;
+    float: left;
+    margin: 0px 1% 15px 1%;
+    width: 22.5%;
+    height: 195px;
+    overflow: hidden;
+}
+
+.statewrap .statename {
+    font-weight: normal;
+    padding: 8px 10px;
+    margin: 0;
+    line-height: 18px;
+    font-size: 13px;
+    word-wrap: break-word;
+    color: #673074;
+}
+
+.statewrap .statebody {
+    padding: 15px 5px 15px 15px;
+    background: #f7f7f7;
+    word-wrap: break-word;
+    height: 130px;
+    overflow: hidden;
+}
+
+.statewrap .statebody .scrollstatebody {
+    height: 140px;
+}
+
+.stlnk {
+    text-decoration: none;
+    color: #696969;
+    font-size: 13px;
+    transition: color 0.3s ease;
+    position: relative;
+    padding-left: 8px;
+    display: inline-block;
+}
+
+.stlnk:before {
+    content: '\203A';
+    position: absolute;
+    left: 0;
+}
+
+.stlnk:hover {
+    color: #660099;
+}
+
+.statewrap .tpjob_morewrap {
+    margin-top: 0;
+    border-top: 0;
+    padding: 8px 10px;
+}
+
+.statewrap .tpjob_morewrap .lnk {
+    padding: 0;
+}
+
+.statewrap .tpjob_morewrap .lnk:before {
+    content: none;
+}
+
+.adbanner {
+    text-align: center;
+}
+
+.rgt_spcr {
+    height: 20px;
+}
+
+.jobs_byarticles {
+    border: 1px #bfbfbf solid;
+    background: #ffffff;
+}
+
+.jobs_byarticles .art_head {
+    font-size: 13px;
+    font-weight: bold;
+    background: #f2f1f6;
+    color: #71509d;
+    text-align: left;
+    line-height: 28px;
+    height: 28px;
+    border-bottom: 1px #bfbfbf solid;
+    padding: 0px 8px
+}
+
+.jobs_byarticles .jobsby_innrart {
+    padding: 0px 8px;
+}
+
+.jobs_byarticles .art_head1 {
+    color: #71509d;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.jobs_Artimgwrap {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.jmore_wrap {
+    margin-bottom: 10px;
+}
+
+.jmore_link {
+    color: #71509d;
+}
+
+.jobs_byarticles .art_head2 {
+    font-size: 13px;
+    font-weight: bold;
+    background: #f2f1f6;
+    color: #000000;
+    text-align: left;
+    line-height: 28px;
+    height: 28px;
+    border-top: 1px #bfbfbf solid;
+    padding: 0px 8px;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+.jobs_byarticles .art_head2:after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    right: 7px;
+    top: 9px;
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) -216px -249px no-repeat;
+}
+
+.jobs_byarticles.rightbar {
+    width: 245px;
+}
+
+.jobs_byarticles.rightbar .art_head {
+    border-bottom: 0;
+}
+
+.jobs_byarticles .art_head1 {
+    color: #000;
+}
+
+.art_head2.jobsmart_accordtab:after {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) -402px -319px no-repeat;
+}
+
+.jobsmart_accord {
+    margin-top: 10px;
+    display: none;
+}
+
+.jobsmart_accord .jobs_Artimgwrap img {
+    border: 1px #bfbfbf solid;
+}
+
+.section_rgt .tabcommnh {
+    border: 0;
+}
+
+.cmplogobox {
+    background: #f7f7f7;
+    border: 1px solid #d7d7e4;
+    padding-bottom: 15px;
+}
+
+.cmplogobox .tabcommnh {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.job_comlogo {
+    background: rgba(0, 0, 0, 0) url("http://media.monsterindia.com/seeker_2014/seeker_2015/default_clogo.jpg") no-repeat scroll center center;
+    border: 0 none;
+    display: inline-block;
+    height: 40px;
+    margin: 7px 22px;
+    outline: 0 none;
+    transition: box-shadow 0.3s linear 0s;
+    width: 110px;
+}
+
+.job_comlogo:hover {
+    box-shadow: 0 0 2px #999;
+}
+
+.job_comlogo img {
+    border: 0 none;
+    display: block;
+    height: 40px;
+    outline: 0 none;
+    width: 110px;
+}
+
+.jpinnrbox {
+    border: 1px #d7d7e4 solid;
+}
+
+.jpinnrbox.keywrap {
+    padding: 15px;
+}
+
+.tp_jobwidgeth2 {
+    line-height: 36px;
+    font-size: 17px;
+    padding: 0px 10px;
+    color: #673074;
+    border-bottom: 1px #d7d7e4 solid;
+}
+
+.tp_jobwidgeth2.nobrdr {
+    border: 0;
+}
+
+.inlnk {
+    text-decoration: none;
+    color: #696969;
+    font-size: 13px;
+    transition: color 0.3s ease;
+    position: relative;
+    display: block;
+    background: #f7f7f7;
+    line-height: 14px;
+    padding: 8px 20px 8px 20px;
+}
+
+.inlnk:hover {
+    background: #f3f3f3;
+}
+
+.inlnk:before {
+    content: '\203A';
+    position: absolute;
+    left: 8px;
+    line-height: 26px;
+    top: 0;
+}
+
+.inlnk.active:after {
+    content: '';
+    position: absolute;
+    right: 6px;
+    line-height: 26px;
+    top: 6px;
+    width: 10px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -35px -43px;
+    height: 20px;
+}
+
+.inlnk.active {
+    background: #eaeaea;
+}
+
+.inlnkwrap {
+    overflow: hidden;
+}
+
+.inkwrapper {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.inkwrapperinnr {
+    max-height: 180px;
+}
+
+.lnktbl {
+    display: table;
+    width: 100%;
+}
+
+.lnktbl .lnktblcell {
+    display: table-cell;
+    width: 50%;
+    padding: 5px 10px;
+}
+
+.lnkmain {
+    text-decoration: none;
+    color: #696969;
+    font-size: 13px;
+    transition: color 0.3s ease;
+    position: relative;
+    padding-left: 8px;
+    display: inline-block;
+}
+
+.lnkmain.ah {
+    font-weight: bold;
+}
+
+.lnkmain:before {
+    content: '\203A';
+    position: absolute;
+    left: 0;
+}
+
+.lnkmain:hover {
+    color: #660099;
+}
+
+.lnkmainwrap {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.tabpaging {
+    display: table;
+    width: 100%;
+}
+
+.tabpagingitem {
+    width: Auto;
+    display: table-cell;
+    padding-left: 1px;
+    vertical-align: bottom;
+    height: 40px;
+}
+
+.tabpagingitem .tabplnk {
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    background: #f7f7f7;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    min-width: 16px;
+    height: 36px;
+    transition: all 0.3s ease;
+}
+
+.tabpagingitem .tabplnk.home {
+    position: relative;
+    min-width: 18px;
+}
+
+.tabpagingitem .tabplnk.home .miconhome1 {
+    display: block;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -62px -41px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    margin-top: -9px;
+}
+
+.tabpagingitem .tabplnk:hover {
+    background: #e3e3e3;
+    height: 38px;
+    line-height: 38px;
+}
+
+.tabpagingitem .tabplnk.active {
+    line-height: 40px;
+    height: 40px;
+    background: #673074;
+}
+
+.tabpagingitem .tabplnk.active.home .miconhome1 {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -62px -21px;
+}
+
+.jbkeywrdwrap {
+    background: #f7f7f9;
+    padding: 10px 8px;
+}
+
+.keylnk {
+    border: 2px #d7d7e4 solid;
+    padding: 6px 8px;
+    font-size: 14px;
+    color: #565656;
+    display: block;
+    text-decoration: none;
+    margin: 8px;
+    transition: all 0.3s linear;
+}
+
+.keylnk:hover {
+    background: #d7d7e4;
+    color: #252525;
+    box-shadow: 2px 2px 2px #a7a7a7;
+}
+
+.jpbrowseall {
+    border: 1px #d7d7e4 solid;
+    border-top: 0;
+    padding: 10px;
+}
+
+.jpbrowseall_h {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.page_heading {
+    padding: 0px 20px 20px 35px;
+    font-size: 18px;
+    color: #673074
+}
+
+.jpinnrbox.collapsed {
+    padding-bottom: 36px;
+    overflow: hidden;
+    position: relative;
+    height: 635px;
+}
+
+.jpinnrbox.collapsed .tpjob_morewrap {
+    margin-top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+}
+
+@media all and (max-width:1245px) {
+    .job_tblcell.section_lft {
+        padding: 0px 10px;
+    }
+
+    .job_tblcell.section_rgt {
+        padding-right: 10px;
+    }
+
+    .job_tblcell.section_lft1 {
+        padding-left: 10px;
+    }
+}
+
+.all_location {
+    padding: 10px;
+    display: block;
+    font-size: 17px;
+    color: #747474;
+    text-decoration: none;
+    position: relative;
+}
+
+.all_location.active:after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #747474;
+    border-bottom: 5px solid transparent;
+}
+
+

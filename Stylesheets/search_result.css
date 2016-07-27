@@ -1,0 +1,2013 @@
+.searchinfowrap {
+    min-height: 40px;
+    margin-bottom: 35px;
+}
+
+.searchinfo {
+    height: auto;
+    background: #fff;
+    border-bottom: #d7d7e4 1px solid;
+    box-shadow: 0 5px 5px -5px #d7d7e4;
+    background: #fff;
+}
+
+.searchinfo.fix {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 120px;
+    z-index: 93;
+}
+
+.searchinfoinnr {
+    max-width: 1345px;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    min-width: 990px;
+}
+
+.searchinfoinnr .srchincell {
+    display: table-cell;
+    height: auto;
+    vertical-align: top;
+    text-align: left;
+    font-size: 13px;
+    width: auto;
+}
+
+.searchinfoinnr .srchincell.cnt {
+    color: #673074;
+    position: relative;
+    line-height: 46px;
+    width: 220px;
+    text-align: center;
+    font-size: 15px;
+    color: #673074;
+}
+
+.searchinfoinnr .srchincell.cnt:after {
+    content: '';
+    position: absolute;
+    background: #d7d7e4;
+    height: 70%;
+    top: 15%;
+    right: 0;
+    width: 1px;
+}
+
+.searchinfoinnr .srchincell.modify {
+    width: 295px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.searchinfoinnr .srchincell.modify a {
+    font-size: 14px;
+    color: #673074;
+    line-height: 26px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px #d7d7e4 solid;
+    padding: 0px 10px;
+    color: #757575;
+}
+
+.searchinfoinnr .srchincell.modify a.modify {
+    background: #e7e7e7;
+    margin-right: 15px;
+    color: #454545;
+}
+
+.searchinfoinnr .srchincell.modify a:hover {
+    color: #673074;
+    border: 1px #673074 solid;
+}
+
+.searchinfoinnr .srchincell.srchtxt {
+    padding: 13px 20px 13px 20px;
+    text-align: left;
+}
+
+.srchtxtmain {
+    width: 70%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    line-height: 20px;
+}
+
+.srchsorth {
+    font-size: 12px;
+    line-height: 20px;
+    color: #787878;
+}
+
+.srchsdd {
+    height: 22px;
+    border: 1px #d7d7e4 solid;
+    width: 120px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #767676;
+    position: relative;
+    margin-left: 5px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.srchsdd .mico {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.searchrslttbl {
+    display: table;
+    margin: 0 auto;
+    max-width: 1345px;
+    text-align: left;
+    width: 100%;
+    min-width: 990px;
+}
+
+.searchrslttbl .srchrscell {
+    display: table-cell;
+    width: auto;
+    vertical-align: top;
+    padding: 0px 10px;
+}
+
+.searchrslttbl .srchrscell.facetwrap, .searchrslttbl .srchrscell.rightbar {
+    width: 245px;
+}
+
+.searchrslttbl .srchrscell.rightbar.brdr {
+    padding-left: 20px;
+    border-left: 1px #d7d7e4 solid;
+}
+
+.searchrslttbl .srchrscell.facetwrap {
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    font-size: 12px;
+}
+
+.searchrslttbl .srchrscell.facetwrap.wf {
+    width: 255px;
+}
+
+.searchrslttbl .srchrscell.facetwrap {
+    padding-right: 0;
+}
+
+.searchrslttbl .srchrscell.rightbar {
+    padding: 0;
+    padding-right: 20px;
+}
+
+.searchrslttbl .srchrscell.facetwrap {
+    max-width: 245px;
+}
+
+.searchrslttbl .srchrscell.rightbar .rightbarinnr {
+    max-width: 255px;
+    min-width: 255px;
+}
+
+.searchrslttbl .srchrscell.resltall {
+    padding: 0px 20px;
+}
+
+.tpjob_item {
+    border-bottom: 1px #b2b2b2 solid;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.tpjob_d {
+    position: relative;
+    margin-right: 150px;
+}
+
+.tpjob_rec {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    min-width: 120px;
+}
+
+.applybtn {
+    width: 96px;
+    background: #673074;
+    border: 1px #673074 solid;
+    border-radius: 4px;
+    color: #fff;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.applybtn:hover {
+    background: #fff;
+    color: #673074;
+}
+
+.tpjob_lnk {
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.tpjob_lnk .tpjobwrap {
+    position: relative;
+    z-index: 2;
+    padding: 4px 0px;
+}
+
+.tpjob_title {
+    font-size: 17px;
+    color: #673074;
+    white-space: nowrap;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+.tpjob_cname {
+    font-size: 15px;
+    color: #f19005;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tpjob_loc {
+    font-size: 15px;
+    color: #666666;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}
+
+.tpjob_desc {
+    font-size: 13px;
+    color: #666666;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}
+
+.tpjob_key {
+    width: 70%;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: hidden;
+    color: #666666;
+}
+
+.bld {
+    color: #000;
+}
+
+.tpjob_item.cmplogo .tpjob_title, .tpjob_item.cmplogo .tpjob_loc,
+.tpjob_item.cmplogo .tpjob_cname {
+    padding-left: 120px;
+}
+
+.tpjob_lnk .date {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    font-size: 10px;
+    color: #565656;
+}
+
+.tpjob_lnk:after {
+    content: '';
+    position: absolute;
+    right: -3px;
+    height: 100%;
+    width: 0px;
+    background: #f6f6f6;
+    transition: width 0.5s ease;
+    bottom: 0;
+    z-index: 1;
+}
+
+.tpjob_lnk:before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    height: 100%;
+    width: 0px;
+    background: #f6f6f6;
+    transition: width 0.5s ease;
+    top: 0;
+    z-index: 1;
+}
+
+.tpjob_lnk:hover:before, .tpjob_lnk:hover:after {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.tpjob_lnk:hover .tpjob_title {
+    color: #252525;
+}
+
+.tpjob_reclogo {
+    width: 110px;
+    height: 40px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/default_clogo.jpg) no-repeat center center;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin-bottom: 5px;
+    transition: box-shadow 0.3s linear;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    z-index: 10;
+}
+
+.tpjob_reclogo:hover {
+    box-shadow: 0px 0px 2px #999;
+}
+
+.tpjob_reclogo img {
+    width: 110px;
+    height: 40px;
+    display: block;
+    outline: 0;
+    border: 0;
+}
+
+/* dropdown modification*/
+.ddnew {
+    border: 1px #d7d7e4 solid;
+    position: relative;
+    ;
+    cursor: pointer;
+    height: 38px;
+}
+
+.ddnew .mico {
+    position: absolute;
+    right: 5px;
+    color: #a3a3a3;
+    line-height: 30px;
+    font-size: 13px;
+    top: 6px;
+}
+
+.ddnew.bggry {
+    background: #f7f7f7;
+}
+
+.ddnew .dropdown_small_wrapper, .ddnew .dropdown_smaller_wrapper {
+    padding: 0;
+    margin: 0;
+    height: 38px;
+    border: 0;
+    background: none;
+}
+
+.ddnew .dropdown_small_wrapper .left, .ddnew .dropdown_smaller_wrapper .left {
+    padding-left: 10px;
+    line-height: 38px;
+    color: #a8a8a8;
+    padding-right: 30px;
+    overflow: hidden;
+    width: auto !important;
+    float: none;
+    font-size: 14px;
+}
+
+.ddnew .dropdown_small_wrapper .right, .ddnew .dropdown_smaller_wrapper .right {
+    display: none;
+}
+
+/* dropdown modification*/
+.facetspacr {
+    height: 20px;
+}
+
+.inputfieldwrap {
+    border: 1px #d7d7e4 solid;
+}
+
+.inputfieldwrap .inputfield {
+    padding: 0px 10px;
+    line-height: 38px;
+    height: 38px;
+    color: #a8a8a8;
+    background: none;
+    outline: 0;
+    border: 0;
+    display: block;
+    font-size: 14px;
+    width: auto;
+}
+
+.facetwidget {
+    border: 1px #d7d7e4 solid;
+}
+
+.facetwidget_h {
+    padding: 0px 10px;
+    color: #673074;
+    font-size: 15px;
+    line-height: 28px;
+    height: 28px;
+    position: relative;
+    cursor: pointer;
+}
+
+.facetwidget_h.expnd:before, .facetwidget_h.expnd:after {
+    content: '';
+    background: #b2b2b2;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.facetwidget_h.expnd:before {
+    width: 12px;
+    height: 4px;
+    right: 10px;
+    top: 11px;
+}
+
+.facetwidget_h.expnd:after {
+    width: 4px;
+    height: 12px;
+    right: 14px;
+    top: 7px;
+    transition: all 0.3s linear;
+}
+
+.facetwidget_h.expnd.active:after {
+    top: 11px;
+    height: 0px;
+}
+
+.facetwidget .facetwidgetbody {
+    background: #f7f7f7;
+    padding: 5px;
+}
+
+.facetwidget .facetwidgetbody.expand {
+    display: none;
+}
+
+.facetwiditem {
+    margin: 15px 0px 5px 0px;
+    padding: 0px 30px 0px 25px;
+    position: relative;
+}
+
+.facetwiditem .frad {
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    margin: 0;
+}
+
+.facetwiditem .ftxt {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 14px;
+    font-size: 12px;
+    color: #565656;
+}
+
+.facetwiditem .fcnt {
+    font-size: 12px;
+    position: Absolute;
+    right: 6px;
+    top: -1px;
+    color: #673074
+}
+
+.facet_refinewrap {
+    height: 32px;
+    position: relative;
+}
+
+.facet_refinewrapinnr {
+    height: 32px;
+    padding: 0px 5px;
+}
+
+.facet_refinewrapinnr.fixed {
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 0px 5px 0px #999;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+}
+
+.clrwrap {
+    width: 50%;
+    padding: 9px 0px;
+    white-space: nowrap;
+}
+
+.clrwrap a {
+    font-size: 13px;
+    color: #673074;
+    line-height: 14px;
+}
+
+.frefinebtnwrap {
+    width: 50%;
+}
+
+.frefinebtn {
+    display: block;
+    background: #673074;
+    border: 1px #673074 solid;
+    border-radius: 4px;
+    color: #fff;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 28px;
+    height: 30px;
+    outline: 0;
+    width: 100%;
+}
+
+.frefinebtn:hover {
+    background: #fff;
+    color: #673074;
+}
+
+.rgtadbanner {
+    text-align: center;
+}
+
+.subscribewrap {
+    font-size: 12px;
+    color: #565656;
+    border: 1px #d7d7e4 solid;
+}
+
+.tp_jobhead.inbox {
+    text-transform: inherit;
+    border-bottom: 0;
+}
+
+.tp_jobhead.inbox .miconinbox {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -40px -1px;
+    width: 20px;
+    height: 20px;
+}
+
+.subscribefrm {
+    background: #f7f7f7;
+    padding: 5px 10px 10px 10px;
+}
+
+.meibox {
+    background: #f4f4f4;
+    border: 1px #d7d7e4 solid;
+    padding: 10px;
+    position: relative;
+}
+
+.meiboxh.lnk {
+    margin-left: 110px;
+    font-size: 14px;
+    color: #673074;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.meiimg {
+    display: block;
+    left: 10px;
+    top: 10px;
+    outline: 0;
+    border: 0;
+    position: absolute;
+}
+
+.tp_jobhead.cadvise {
+    text-transform: none;
+    font-size: 14px;
+}
+
+.adbox {
+    padding: 10px;
+    background: #f4f4f4;
+    color: #9e9e9e;
+}
+
+.adboxh {
+    text-decoration: underline;
+    margin-bottom: 3px;
+    color: #767676;
+}
+
+.adbox_morewrap {
+    padding: 5px 0px;
+    text-align: right;
+}
+
+.adlnkwrap {
+    width: 44%;
+    margin: 2% 3% 3% 3%;
+}
+
+.adlnkwrap .lnk:before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    background: #d7d7d7;
+    width: 100%;
+    height: 1px;
+    left: 0;
+}
+
+.recent .lnk {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.apptblinnr {
+    display: table;
+    width: 100%;
+}
+
+.appconfrimwrap {
+    display: table-cell;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.morejobwrap {
+    border: 1px #d7d7e4 solid;
+    margin-top: 30px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.morejobwrap.mn-update {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.morejobwrap.topjobwrap {
+    margin-top: 40px;
+}
+
+.morejobwrap.topjobwrap:before {
+    content: none;
+}
+
+.morejobwrap.topjobwrap .floatingh {
+    top: -11px;
+}
+
+.morejobwrap.nmrgn {
+    margin-top: 10px;
+}
+
+.morejobwrap:before {
+    position: absolute;
+    height: 100%;
+    content: '';
+    top: 0px;
+    bottom: 0;
+    width: 1px;
+    background: #d7d7e4;
+    left: 50%;
+}
+
+.morejobwrap.mn-update:before {
+    content: none;
+}
+
+.morejobwrap .morejobsec {
+    width: 50%;
+    position: relative;
+    background: #fff;
+}
+
+.morejobwrap.mn-single .morejobsec {
+    width: 100%;
+}
+
+.morejobwrap.mn-update .morejobsec:before {
+    content: '';
+    position: Absolute;
+    top: 3px;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    border: 1px #d7d7e4 solid;
+}
+
+.morejobwrap.mn-update .morejobsec .mn-morejobinnr {
+    box-shadow: 0px 0px 2px #e2e2e2;
+    padding: 4px;
+    position: relative;
+    border: 1px #e2e2e2 solid;
+}
+
+.morejobwrap.mn-update .morejobsec.lft .mn-morejobinnr {
+    margin-right: 15px;
+}
+
+.morejobwrap.mn-update .morejobsec.rgt .mn-morejobinnr {
+    margin-left: 15px;
+}
+
+.morejobwrap.mn-update.mn-single .morejobsec .mn-morejobinnr {
+    margin: 0px !important;
+}
+
+.morejobwrap.mn-update .morejobsec.lft:before {
+    right: 18px;
+}
+
+.morejobwrap.mn-update .morejobsec.rgt:before {
+    left: 18px;
+}
+
+.morejobwrap.mn-update.jobwrapperinnr .scroll-me {
+    height: 665px;
+    padding-right: 10px;
+}
+
+.morejobwrap.mn-update.mn-single .morejobsec.lft:before {
+    right: 3px !important;
+}
+
+.morejobwrap.mn-update.mn-single .morejobsec.rgt:before {
+    left: 3px !important;
+}
+
+.morejobwrap.mn-update .floatingh {
+    position: relative;
+    top: 0;
+    border-bottom: 1px #b2b2b2 solid;
+    padding: 13px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 13px;
+    display: block;
+    left: 0;
+    text-transform: uppercase;
+}
+
+.morejobwrap.mn-update .floatingh .applybtn {
+    position: absolute;
+    text-transform: uppercase;
+    top: 5px;
+    right: 10px;
+}
+
+.morejobwrap .morejobsec .jobwrapper .jobwrapperinnr .applybtn {
+    background: #e1e1e1;
+    color: #673074;
+    border: 1px #e1e1e1 solid;
+}
+
+.mn-update .mn-morejob {
+    background: #d7d7e4;
+    padding: 15px;
+    text-align: right;
+}
+
+.mn-update .mn-morejob a {
+    color: #606066;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.morejobwrap .morejobsec.mjtop {
+    padding: 3.7% 2%;
+    width: 46%;
+}
+
+.morejobwrap .morejobsec .jobwrapper {
+    padding: 10px 5px 10px 5px;
+    overflow: hidden;
+    height: auto;
+}
+
+.morejobwrap .morejobsec .jobwrapper .tpjob_item {
+    padding-left: 10px;
+}
+
+.morejobwrap .morejobsec .jobwrapper .tpjob_item .tpjob_d {
+    margin-right: 130px;
+}
+
+.morejobwrap .morejobsec .jobwrapper .tpjob_item .tpjob_rec {
+    right: 20px;
+}
+
+.morejobwrap.mn-update .morejobsec .jobwrapper .tpjob_item .tpjob_rec {
+    right: 8px;
+    min-width: 103px;
+}
+
+.morejobwrap .morejobsec .jobwrapper .jobwrapperinnr {
+    max-height: auto;
+}
+
+.floatingh {
+    position: absolute;
+    left: 10px;
+    padding: 0px 10px;
+    background: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    top: -21px;
+    font-weight: normal;
+    color: #673074;
+}
+
+.apptblinnr .facetwrap {
+    padding-left: 0;
+}
+
+.applcationwrapper {
+    border: 1px #d7d7e4 solid;
+}
+
+.applicationconfirmwrap {
+    padding: 15px;
+    position: relative;
+}
+
+.applcationtxtwrapinnr {
+    max-width: 762px;
+    border: 1px #9cb227 solid;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2px;
+}
+
+.applcationtxtwrap {
+    background: #9cb227;
+    margin: 1px;
+    padding: 15px;
+    padding-left: 55px;
+    position: relative;
+    color: #fff;
+}
+
+.applcationtxtwrap .txtbig {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.appspacr {
+    height: 6px;
+}
+
+.applcationtxtwrap:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat 2px -100px;
+}
+
+.sc_green_notification_txt a {
+    color: #fff;
+}
+
+.app_h {
+    line-height: 34px;
+    color: #673074;
+    padding: 0px 10px;
+    border-bottom: 1px #d7d7e4 solid;
+    border-top: 1px #d7d7e4 solid;
+    font-size: 15px;
+}
+
+.morejobwrap.atopbox .morejobsec .jobwrapper {
+    padding: 10px;
+}
+
+.morejobwrap.atopbox .morejobsec .tp_desc {
+    width: 70%;
+}
+
+.followbtnwrap.cmp .applybtn {
+    font-size: 11px;
+    width: 70px;
+    margin: 0;
+    line-height: 22px;
+}
+
+.rcmorewrap {
+    padding-top: 10px;
+    color: #696969;
+}
+
+.rcmorewrap .lnk {
+    margin-top: 5px;
+}
+
+.lnksep {
+    padding: 5px 5px 0px 5px;
+}
+
+.subscribebtn {
+    display: block;
+    width: 100%;
+    outline: 0;
+    line-height: 30px;
+    background: #673074;
+    border: 1px #673074 solid;
+    color: #fff;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    margin-top: 5px;
+    line-height: 28px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.subscribebtn:hover {
+    background: #fff;
+    color: #673074;
+}
+
+/*brand maximaizer*/
+.ns_brandmaximizer {
+    width: 100%;
+    position: relative;
+    height: auto !important
+}
+
+.ns_brandmaximizer_inner {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ns_brandmaximizer_popup {
+    position: absolute;
+    z-index: 1001;
+    width: 400px;
+    height: 300px;
+    left: -700px;
+    top: -160px;
+    border: 2px #660099 solid;
+    display: none;
+}
+
+.ns_brandmaximizer_popup_close_wrap {
+    position: relative;
+    width: 100%;
+}
+
+.ns_brandmaximizer_popup_close {
+    top: -20px;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -73px -120px;
+    width: 32px;
+    height: 32px;
+    right: -20px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.ns_brandmaximizer_fade {
+    background: rgb(0, 0, 0);
+    background: #252525;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.ns_bottombanner_wrap {
+    width: 100%;
+    background: #ffffff;
+    height: 100px;
+    text-align: center;
+    border-top: 3px #660099 solid;
+    position: fixed;
+    bottom: -103px;
+    z-index: 100;
+}
+
+.ns_bottombanner {
+    width: 100%;
+    background: #ffffff;
+    height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0px;
+}
+
+.ns_bottombanner_space {
+    width: 728px;
+    margin: 0 auto;
+    height: 90px;
+    position: relative;
+}
+
+.ns_bottombanner_close {
+    top: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -73px -120px;
+    width: 32px;
+    height: 32px;
+    right: -50px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.ns_resulttxt_wrap_y {
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    height: 175px;
+}
+
+.loadmorebtn {
+    width: 300px;
+    line-height: 40px;
+    border: #565656 1px solid;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 17px;
+    transition: background 0.3s ease;
+}
+
+.loadmorebtn:hover {
+    background: #565656;
+    color: #fff;
+}
+
+.searchinfoopts {
+    margin-bottom: 20px;
+    padding: 0px 20px 10px 20px;
+    border-bottom: 1px #d7d7e4 solid;
+}
+
+.searchinfotxt {
+    font-size: 15px;
+    color: #000;
+    line-height: 26px;
+}
+
+.cutrad {
+    display: none;
+}
+
+.cutrad + label, .cutrad + label {
+    display: inline-block;
+    margin: -2px;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+.cutrad.nobrdr + label {
+    border-left: 0;
+}
+
+.cutrad:checked + label {
+    background: #fff;
+    color: #660099;
+}
+
+.morejobwrap.atopbox .morejobsec .jobwrapper.cmp {
+    padding-top: 5px;
+}
+
+.reccmplogo {
+    margin-bottom: 21px;
+    padding: 8px 10px 5px 120px;
+    height: 40px;
+    position: relative;
+}
+
+.reccmplogo .tpjob_reclogo {
+    width: 110px;
+    height: 40px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/default_clogo.jpg) no-repeat center center;
+    display: block;
+    outline: 0;
+    border: 0;
+    transition: box-shadow 0.3s linear;
+    left: 0px;
+    top: 9px;
+}
+
+.cmplogowrap .tpjob_reclogo:hover {
+    box-shadow: 0px 0px 2px #999;
+}
+
+.cmplogowrap .tpjob_reclogo img {
+    width: 110px;
+    height: 40px;
+    display: block;
+    outline: 0;
+    border: 0;
+}
+
+.cmplogowrap .tpjob_lnk.cmp {
+    margin-left: 0px;
+    width: 70%;
+}
+
+.rcmoretxt {
+    padding-top: 5px;
+}
+
+.recsliderwrap {
+    padding: 8px 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.recsliderwrap.atsidebar {
+    padding: 8px 0px 76px 0px;
+}
+
+.recsliderwrap.mjobslider {
+    padding: 30px 40px 33px 40px;
+}
+
+.recsliderwrap.recbtm {
+    border: 1px #d7d7e4 solid;
+    padding-top: 30px;
+    margin-top: 30px;
+    overflow: visible;
+}
+
+.recsliderwrap.recbtm .floatingh {
+    top: -11px;
+}
+
+.recsliderinnr {
+    position: relative;
+    height: 80px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.recslidermain {
+    width: 9999px;
+    height: 80px;
+    position: absolute;
+}
+
+.recsliderwrap.recbtm .recsliderinnr, .recsliderwrap.recbtm .recsliderinnr .recslidermain {
+    height: 115px;
+}
+
+.recsliderwrap.mjobslider .recsliderinnr, .recsliderwrap.mjobslider .recslidermain {
+    height: 130px;
+}
+
+.recslideritem {
+    width: 310px;
+    padding: 0px 15px;
+    position: relative;
+    border-right: 1px #d7d7e4 solid;
+}
+
+.recsliderwrap.atsidebar .recslideritem {
+    width: 227px;
+    padding: 0px 8px;
+    border: 0;
+}
+
+.recsliderwrap.mjobslider .recslideritem {
+    width: 630px;
+    padding: 0px 10px;
+    border: 0;
+}
+
+.recsliderwrap.atsidebar .recslideritem .tp_desc {
+    width: 168px;
+}
+
+.recsliderwrap.atsidebar .recslideritem .tpjobsmain {
+    padding: 0px;
+}
+
+.recslideritem .tp_desc {
+    width: 250px;
+}
+
+.recsliderwrap .recslidernav {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    top: 50%;
+    margin-top: -13px;
+}
+
+.recsliderwrap.atsidebar .recslidernav {
+    bottom: 10px;
+    width: 19px;
+    height: 19px;
+    top: inherit;
+}
+
+.recsliderwrap .recslidernav.lt {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -36px -91px;
+    left: 0px;
+}
+
+.recsliderwrap.atsidebar .recslidernav.lt {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -75px -233px;
+    right: 35px;
+    left: inherit;
+}
+
+.recsliderwrap .recslidernav.rt {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -69px -91px;
+    right: 0px;
+}
+
+.recsliderwrap.atsidebar .recslidernav.rt {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -75px -291px;
+    right: 10px;
+    left: inherit;
+}
+
+.recsliderwrap .recslidernav.lt:hover {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -36px -129px;
+}
+
+.recsliderwrap.atsidebar .recslidernav.lt:hover {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -75px -262px;
+}
+
+.recsliderwrap .recslidernav.rt:hover {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -69px -129px;
+}
+
+.recsliderwrap.atsidebar .recslidernav.rt:hover {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -75px -320px;
+}
+
+.refinecollapse {
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #9c9c9c;
+    line-height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.refinecollapse .refinecollapsebtn {
+    width: 30px;
+    height: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/refine_search.png) no-repeat 11px 10px;
+}
+
+.refinecollapse:hover .refinecollapsebtn {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/refine_search.png) no-repeat 11px -12px;
+}
+
+.refinecollapse:hover {
+    color: #454545;
+}
+
+.refineexpand {
+    width: 50px;
+    background: #eeeeee;
+    border-right: 1px #aaaaaa solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.refineexpandlnk {
+    cursor: pointer;
+    width: 30px;
+    margin: 0 auto;
+}
+
+.refineexpandlnk .refineexpandicon {
+    width: 30px;
+    height: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/refine_search.png) no-repeat 3px -34px;
+    margin: 10px auto;
+}
+
+.refineexpandlnk:hover .refineexpandicon {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/refine_search.png) no-repeat 3px -56px;
+}
+
+.refineexpandlnk .refineexpanditxt {
+    width: 12px;
+    height: 155px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/refine_search.png) no-repeat -14px -91px;
+    margin: 0px auto;
+}
+
+.refineexpandlnk:hover .refineexpanditxt {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/refine_search.png) no-repeat 0px -91px;
+}
+
+.tp_jobwidget.lmrgn {
+    margin-bottom: 25px;
+}
+
+.tp_jobwidget.lmrgn .tpjobsmain {
+    padding: 10px 15px 0px 15px;
+}
+
+/* pagination */
+.pagination_wrap {
+    padding: 20px;
+}
+
+.pagination_wrap:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.pagination_item {
+    padding: 5px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    margin: 0px 3px;
+    font-size: 11px;
+    color: #545454;
+}
+
+.pagination_item:hover {
+    background: #eee;
+    color: #454545;
+}
+
+.pagination_item.active {
+    background: #737373;
+    color: #fff;
+    cursor: default;
+}
+
+.pagination_item.prev {
+    background: #fff url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -84px -198px;
+    padding: 0;
+    height: 22px;
+    width: 16px;
+}
+
+.pagination_item.prev:hover {
+    background: #eee url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -84px -198px;
+}
+
+.pagination_item.prev.disable, .pagination_item.prev.disable:hover {
+    background: #fff url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -68px -198px;
+}
+
+.pagination_item.next {
+    background: #fff url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -16px -131px;
+    padding: 0;
+    height: 22px;
+    width: 16px;
+}
+
+.pagination_item.next:hover {
+    background: #eee url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -16px -131px;
+}
+
+.pagination_item.next.disable, .pagination_item.next.disable:hover {
+    background: #fff url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat 0px -131px;
+}
+
+/* pagination */
+.msocial {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    height: 113px;
+    padding: 18px 4px 0px 9px;
+    width: 29px;
+    margin-top: -67px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat 0px -231px;
+}
+
+.msocial .mslnk {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3px;
+    width: 29px;
+    height: 29px;
+}
+
+.msocial .mslnk.ios {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -44px -233px;
+}
+
+.msocial .mslnk.and {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -44px -264px;
+}
+
+.msocial .mslnk.wap {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat -44px -296px;
+}
+
+.morejobsec.rgt .tpjobsmain {
+    padding: 15px 10px 15px 10px;
+    border-bottom: 1px #b2b2b2 solid;
+}
+
+.morejobsec.rgt .tpjobsmain .rcmorewrap {
+    padding: 10px 0px 0px 58px;
+}
+
+.recsliderwrap.mjobslider .recslideritem .tpjob_item {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.recsliderwrap.mjobslider .recslideritem .tpjob_item .tpjob_desc {
+    height: 30px;
+    overflow: hidden;
+}
+
+.srchfieldwrap {
+    margin-bottom: 18px;
+}
+
+.srchfieldh {
+    line-height: 40px;
+    color: #a8a8a8;
+    font-size: 15px;
+    width: 140px;
+}
+
+.srchfieldmain {
+    width: 100%
+}
+
+.bg {
+    background: #fff !important;
+}
+
+.twofields {
+    width: 48%;
+}
+
+.frmbtnwrap.srchform {
+    width: auto;
+    transition: box-shadow 0.3s linear;
+}
+
+.frmbtnwrap.srchform .mico {
+    left: 50%;
+    margin: 0 auto;
+    width: 20px;
+    margin-left: -68px;
+    top: 1px;
+}
+
+.frmbtnwrap.srchform .btnmain {
+    left: 0;
+    right: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.frmbtnwrap.srchform:hover {
+    box-shadow: 0px 0px 2px #000;
+}
+
+.frmcheckwrap {
+    border: 1px #d7d7e4 solid;
+    position: relative;
+    background: #fff;
+    line-height: 37px;
+    font-size: 14px;
+    color: #787878;
+    padding-left: 43px;
+    cursor: pointer;
+}
+
+.frmcheckwrap .chkicon {
+    width: 36px;
+    height: 36px;
+    border-right: 1px #d7d7e4 solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat 3px -70px;
+}
+
+.frmcheckwrap.active {
+    border: 1px #707580 solid;
+    color: #565656;
+}
+
+.frmcheckwrap.active .chkicon {
+    border-right: 1px #707580 solid;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat 3px -40px;
+}
+
+.trumpi {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 80px;
+    height: 52px;
+    background:
+}
+
+.trumpi.pro {
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/trumpi_combi.png) no-repeat 0 0;
+}
+
+.noresult_wrap {
+    position: absolute;
+    left: 0;
+    right: -1px;
+    bottom: -10px;
+    top: -1px;
+    z-index: 10;
+    background: transparent;
+    background: rgba(215, 215, 228, 0.5);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#50d7d7e4, endColorstr=#50d7d7e4);
+    zoom: 1;
+}
+
+.noresult_wrap .noresult_txt {
+    padding: 20px;
+    line-height: 50px;
+    color: #666666;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.topjobwrap.noresult {
+    height: 190px;
+}
+
+.topjobwrap .noresult_wrap {
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    top: 5px;
+}
+
+.bottmrsltwrap .noresult .noresult_wrap {
+    left: 5px;
+    right: 5px;
+    bottom: -5px;
+    top: 0px;
+}
+
+.morejobwrap .morejobsec {
+    position: relative;
+}
+
+.mjtop.noresult {
+    height: 123px;
+}
+
+.mjtop.noresult .noresult_wrap {
+    left: 5px;
+    right: 4px;
+    bottom: -5px;
+    top: -3px;
+}
+
+.bottmrsltwrap .noresult {
+    height: 490px;
+}
+
+.morejobwrap .morejobsec .jobwrapper .jobwrapperinnr {
+    width: 100% !important;
+}
+
+.morejobwrap .morejobsec .jobwrapper .jobwrapperinnr .jspContainer {
+    width: 100% !important;
+}
+
+.morejobwrap .morejobsec .jobwrapper .jobwrapperinnr .jspContainer .jspPane {
+    width: 100% !important;
+}
+
+.not_foundalert {
+    position: relative;
+    background: #d9edf7;
+    color: #000;
+    width: 782px;
+    margin: 0 auto;
+    padding: 15px 15px 15px 55px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    white-space: normal;
+    word-wrap: break-word;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.not_foundalert:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    left: 15px;
+    position: Absolute;
+    top: 12px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/seeker_combi.png) no-repeat -96px -33px;
+}
+
+.mn-apmsg {
+    background: #9cb227;
+    padding: 10px 10px 5px 10px;
+    max-width: 1064px;
+    min-width: 980px;
+    margin: 0 auto;
+}
+
+.mn-apmsginnr {
+    border: 3px #ffffff solid;
+    padding-right: 325px;
+    position: relative;
+    min-height: 105px;
+}
+
+.mn-apmsginnr .mn-apsocialwrap {
+    background: #fff;
+    width: 315px;
+    padding: 0px 5px;
+    position: Absolute;
+    top: 0;
+    right: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.mn-apmsginnr .mn-apmsgmain {
+    padding: 15px 45px 0px 45px;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    display: table-cell;
+}
+
+.mn-apmsginnr .mn-apmsgcol {
+    display: table-cell;
+    vertical-align: middle;
+    height: 90px;
+}
+
+.mn-apmsginnr .mn-apmsgcolinnr {
+    position: relative;
+}
+
+.mn-apmsginnr .mn-apmsgcolinnr:before {
+    position: Absolute;
+    left: -34px;
+    top: -6px;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/seeker_2015/tmp_combi.png) no-repeat 2px -100px;
+}
+
+.mn-apmsginnr .mn-apmsgmain .mn-twrap {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    white-space: normal;
+    overflow: hidden;
+    height: 20px;
+    color: #fff;
+    position: relative;
+    padding-right: 80px;
+}
+
+.mn-apmsginnr .mn-apmsgmain .mn-twrap.mn-1 {
+    font-size: 17px;
+    padding-right: 0;
+}
+
+.mn-apmsginnr .mn-apmsgmain .mn-twrap.mn-1 a {
+    color: #fff;
+}
+
+.mn-apmsginnr .mn-apmsgmain .mn-twrap .mn-updatelnk {
+    position: absolute;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    border: 1px #fff solid;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 20px;
+    padding-right: 3px;
+    right: 0;
+    top: 0;
+}
+
+.mn-apmsginnr .mn-apmsgmain .mn-twrap .mn-updatelnk:before {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -644px -153px;
+    content: '';
+    position: Absolute;
+    width: 16px;
+    height: 15px;
+    left: 2px;
+    top: 2px;
+}
+
+.mn-sharethisjob {
+    padding-top: 5px;
+    text-align: right;
+}
+
+.mn-sharethisjob span.sharecmmn {
+    display: inline-block;
+    background: #4e5913;
+    padding: 5px;
+    line-height: 17px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.mn-sharethisjob span.sharecmmn:before {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -644px -134px;
+    content: '';
+    position: Absolute;
+    width: 16px;
+    height: 15px;
+    top: 50%;
+    margin-top: -9px;
+    left: 5px;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .tpjob_title, .mn-apmsginnr .mn-apsocialwrap .tpjob_desc {
+    font-size: 13px;
+    color: #a3a3a3;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .tpjobwrap.cmp {
+    margin-top: 5px;
+    padding-top: 4px;
+}
+
+.mn-apmsginnr .mn-apsocialwrap:before {
+    border-top: 1px #e5e5e5 solid;
+    content: '';
+    left: 4px;
+    right: 4px;
+    top: 56px;
+    position: absolute;
+}
+
+.mn-apmsginnr .mn-apsocialwrap.mn-apsingle {
+    padding-top: 26px;
+}
+
+.mn-apmsginnr .mn-apsocialwrap.mn-apsingle:before {
+    content: none;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .tpjob_cname {
+    font-size: 11px;
+    color: #a3a3a3;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .tp_desc {
+    width: 180px;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .followbtnwrap {
+    padding-top: 10px;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .followbtnwrap .applybtn {
+    background: #5d4fa1;
+    margin-bottom: 0;
+    width: 72px;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .followbtnwrap .applybtn:hover {
+    color: #fff;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .tpjobwrap.cmp .tpjob_title {
+    margin-bottom: 5px
+}
+
+.mn-apmsginnr .mn-apsocialwrap .tpjobwrap.cmp .tp_rec {
+    background: none;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .tpjobwrap.cmp .tp_rec img {
+    width: 100%;
+    height: auto;
+}
+
+.mn-apmsginnr .mn-apsocialwrap .tpjobwrap.cmp .followbtnwrap {
+    padding-top: 5px;
+}
+
+.mn-browsewrap {
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+    color: #7f677d;
+    font-size: 14px;
+}
+
+.mn-browsewrap a {
+    color: #7f677d;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.mn-browseorwrap {
+    position: relative;
+    height: 1px;
+    background: #cccccc;
+    position: relative;
+    left: 0px;
+    right: -5px;
+}
+
+.mn-browseorwrap:before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    margin-top: -25px;
+    background: #fff;
+}
+
+.mn-browseorwrap .mn-or {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 44px;
+    font-size: 16px;
+    color: #7f677d;
+    text-transform: uppercase;
+    top: 50%;
+    margin-top: -22px;
+    box-shadow: 0px 0px 4px #e4e4e4;
+    border: 1px #e4e4e4 solid;
+}
+
+@media all and (max-width:1256px) {
+    .searchrslttbl .srchrscell.rightbar {
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .searchrslttbl .srchrscell.resltall {
+        padding: 0px 10px;
+    }
+
+    .searchrslttbl .srchrscell.facetwrap {
+        padding: 0;
+    }
+
+    .appconfrimwrap {
+        padding: 0px 15px 0px 25px;
+    }
+
+    .morejobwrap.atopbox .morejobsec {
+        float: none !important;
+        width: 100%;
+    }
+
+    .morejobwrap.atopbox .morejobsec .rcmorewrap {
+        max-width: 280px;
+    }
+
+    .morejobwrap.atopbox:before {
+        content: none;
+    }
+
+    .reccmplogo {
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .reccmplogo:before {
+        position: absolute;
+        content: '';
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 1px;
+        background: #d7d7e4;
+        top: -15px;
+    }
+
+    .morejobsec .tpjob_lnk .date {
+        bottom: -10px;
+    }
+
+    .recsliderwrap.mjobslider {
+        padding: 30px 28px 33px 28px
+    }
+
+    .recsliderwrap.mjobslider .recslideritem {
+        padding: 0;
+    }
+
+    .recsliderwrap.mjobslider .recslideritem .tpjob_item {
+        padding: 0;
+    }
+
+    .recsliderwrap.mjobslider .recslideritem .tpjob_item .tpjob_d {
+        margin-right: 110px;
+    }
+
+    .recsliderwrap.mjobslider .recslideritem .tpjob_item .tpjob_rec {
+        right: 0;
+        min-width: auto;
+        z-index: 2;
+    }
+
+    .morejobwrap.mn-update .floatingh {
+        font-size: 11px;
+    }
+
+    .morejobwrap.mn-update .morejobsec.lft .floatingh {
+        padding-right: 104px;
+    }
+
+    .morejobwrap.mn-update .morejobsec.lft .mn-morejobinnr {
+        margin-right: 5px;
+    }
+
+    .morejobwrap.mn-update .morejobsec.rgt .mn-morejobinnr {
+        margin-left: 5px;
+    }
+
+    .morejobwrap.mn-update .morejobsec.lft:before {
+        right: 8px;
+    }
+
+    .morejobwrap.mn-update .morejobsec.rgt:before {
+        left: 8px;
+    }
+}
+
+

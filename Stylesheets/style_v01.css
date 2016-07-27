@@ -1,0 +1,1583 @@
+@charset "utf-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: #0d51ab;
+}
+
+input {
+    border: 0px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 13px;
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+}
+
+#pinContainer {
+    display: none;
+    margin: 10px;
+    cursor: url(''), pointer;
+}
+
+#callout {
+    position: relative;
+    top: -48px;
+    left: 72px;
+    background-color: #ffc;
+    width: 160px;
+    padding: 3px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.border_grey {
+    border: solid 1px #bfbfbf;
+}
+
+.border_green {
+    border: #54981d 1px solid;
+}
+
+.border_red {
+    border: #FF0000 1px solid;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg_purple {
+    background-color: #72469b;
+}
+
+.bg_purple1 {
+    background-color: #563575;
+}
+
+.bg_purple2 {
+    background-color: #f1ecf5;
+}
+
+.bg_white {
+    background-color: #FFF;
+}
+
+.bg_grey {
+    background-color: #efefef;
+}
+
+.bg_grey1 {
+    background-color: #f7f5f5;
+}
+
+.bg_grey2 {
+    background-color: #cccccc;
+}
+
+.bg_green5 {
+    background-color: #f7f9ef;
+}
+
+.bg_blue {
+    background-color: #e6ebf6;
+}
+
+.bg_blue1 {
+    background-color: #c4d0e9;
+}
+
+.bg_orange {
+    background-color: #fdffd3;
+}
+
+.bg_green {
+    background-color: #e4eeb9;
+}
+
+.bg_purple3 {
+    background-color: #f7f1fb;
+}
+
+.bg_green1 {
+    background-color: #94a934;
+}
+
+.bg_green2 {
+    background-color: #7fad75;
+}
+
+.bg_green3 {
+    background-color: #7e9c1a;
+}
+
+.bg_green4 {
+    background-color: #e9f2d9;
+}
+
+.bg_lightgreen {
+    background-color: #f7f9ef;
+}
+
+.bg_pink {
+    background: #FFF2F2;
+}
+
+.banner_bg {
+    background-color: #fbfaed;
+}
+
+.font_9 {
+    font-size: 9px;
+}
+
+.font_10 {
+    font-size: 10px;
+}
+
+.font_11 {
+    font-size: 11px;
+}
+
+.font_13 {
+    font-size: 13px;
+}
+
+.font_14 {
+    font-size: 14px;
+}
+
+.font_15 {
+    font-size: 15px;
+}
+
+.font_16 {
+    font-size: 16px;
+}
+
+.font_18 {
+    font-size: 18px;
+}
+
+.font_20 {
+    font-size: 20px;
+}
+
+.font_25 {
+    font-size: 25px;
+}
+
+.txt_white {
+    color: #FFF;
+}
+
+.txt_purple {
+    color: #72469b;
+}
+
+.txt_black {
+    color: #000000;
+}
+
+.txt_green {
+    color: #566c09;
+}
+
+.txt_green1 {
+    color: #92a732;
+}
+
+.txt_red {
+    color: #F00;
+}
+
+.txt_orange {
+    color: #d9762b;
+}
+
+.txt_grey {
+    color: #656565;
+}
+
+.txt_yellow {
+    color: #f0c231;
+}
+
+.txt_yellowlight {
+    color: #f6ffc7;
+}
+
+.function_active_arrow {
+    background: url(http://media.monsterindia.com/monster_2012/active_arrow.jpg) no-repeat right center;
+    background-color: transparent;
+}
+
+.footer a {
+    text-decoration: none;
+    background: url(http://media.monsterindia.com/monster_2012/arrow_ftr.gif) no-repeat left 5px;
+    color: #666;
+    padding-left: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.company_active_tab {
+    background: url(http://media.monsterindia.com/monster_2012/company/company_active.jpg) repeat-y right top;
+    border: solid 1px #bfbfbf;
+    border-right: 0px;
+    width: 27px;
+    padding: 5px 3px;
+}
+
+.company_normal_tab {
+    background: url(http://media.monsterindia.com/monster_2012/company/company_normal.jpg) repeat-y right top;
+    width: 27px;
+    padding: 5px 3px;
+}
+
+.blackOverlay {
+    display: none;
+    position: fixed;
+    _position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    _height: 100%;
+    background-color: black;
+    z-index: 100;
+    -moz-opacity: .5;
+    opacity: .50;
+    filter: alpha(opacity=50);
+}
+
+* html div.division {
+    height: expression(this.scrollHeight > 349 ? "350px":"auto");
+}
+
+div.division {
+    max-height: 350px;
+}
+
+/*------------------------ Featured content glider --------------------*/
+
+.glidecontentwrapper {
+    position: relative; /* Do not change this value */
+    width: 350px;
+    height: 230px; /* Set height to be able to contain height of largest content shown*/
+    border: 5px solid #687C98;
+    overflow: hidden;
+}
+
+/*
+    Total wrapper width: 350px+5px+5px=360px
+    Or width of wrapper div itself plus any left and right CSS border and padding
+    Adjust related containers below according to comments
+*/
+
+
+.glidecontent {
+    /*style for each glide content DIV within wrapper.*/
+    position: absolute; /* Do not change this value */
+    background: white;
+    padding: 10px;
+    visibility: hidden;
+    width: 330px;
+}
+
+/*
+ Total glidecontent width: 330px+10px+10px=350px
+    Or width of wrapper div itself (not counting wrapper border/padding)
+*/
+
+.glidecontenttoggler {
+    /*style for DIV used to contain toggler links. */
+    width: 360px;
+    margin-top: 6px;
+    text-align: center; /*How to align pagination links: "left", "center", or "right"
+    background: white; /*always declare an explicit background color for fade effect to properly render in IE*/
+}
+
+/*
+ Total contenttoggler width: 350px+5px+5px=360px
+    Or total width of wrapper div (counting wrapper border/padding)
+*/
+
+.glidecontenttoggler a {
+    /*style for every navigational link within toggler */
+    display: -moz-inline-box;
+    display: inline-block;
+    color: #2e6ab1;
+    padding: 1px 3px;
+    margin-right: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #e6ebf6;
+}
+
+.glidecontenttoggler a.selected {
+    /*style for selected page's toggler link. ".selected" class auto generated! */
+    background: #563575;
+    color: white;
+}
+
+.glidecontenttoggler a:hover {
+    background: #563575;
+    color: white;
+}
+
+.glidecontenttoggler a.toc {
+    /*style for individual toggler links (page 1, page 2, etc). ".toc" class auto generated! */
+
+}
+
+.glidecontenttoggler a.prev, .glidecontenttoggler a.next {
+    /*style for "prev" and "next" toggler links. ".prev" and ".next" classes auto generated! */
+    background: #e6ebf6;
+    color: black;
+}
+
+.glidecontenttoggler a.prev:hover, .glidecontenttoggler a.next:hover {
+    background: #e6ebf6;
+    color: black;
+}
+
+.common_cloud {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.first_cloud {
+    font-size: 26px;
+    color: #683792;
+}
+
+.first_cloud a {
+    color: #683792;
+    text-decoration: none;
+    width: 200px;
+}
+
+.second_cloud {
+    font-size: 18px;
+    color: #000000;
+    padding-left: 125px;
+}
+
+.second_cloud a {
+    color: #000000;
+    text-decoration: none;
+    width: 143px;
+}
+
+.third_cloud {
+    font-size: 24px;
+    color: #eeb619;
+    padding-left: 30px;
+}
+
+.third_cloud a {
+    color: #eeb619;
+    text-decoration: none;
+    width: 245px;
+}
+
+.fourth_cloud {
+    font-size: 18px;
+    color: #a6c939;
+    padding-left: 7px;
+}
+
+.fourth_cloud a {
+    color: #a6c939;
+    text-decoration: none;
+    width: 110px;
+}
+
+.fifth_cloud {
+    font-size: 21px;
+    color: #e74540;
+    padding-left: 45px;
+}
+
+.fifth_cloud a {
+    color: #e74540;
+    text-decoration: none;
+    width: 190px;
+}
+
+/*--------------------------------- Chrome Style ---------------------------------------*/
+
+.chromestyle {
+    width: 99%;
+}
+
+.chromestyle:after {
+    /*Add margin between menu and rest of content in Firefox*/
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.chromestyle ul {
+    width: 100%;
+    padding: 4px 0;
+    margin: 0;
+    text-align: left; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li {
+    display: inline;
+}
+
+.chromestyle ul li a {
+    color: #ffffff;
+    padding: 3px 20px;
+    padding-left: 8px;
+    margin: 0;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected {
+    /*script dynamically adds a class of "selected" to the current active menu item*/
+    background: #563575 url(http://media.monsterindia.com/monster_2012/menu_arrow.jpg) right center no-repeat;
+    text-decoration: none;
+    /*THEME CHANGE HERE*/
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv {
+    position: absolute;
+    top: 0;
+    border: 5px solid #563575; /*THEME CHANGE HERE*/
+    font: normal 12px arial;
+    line-height: 18px;
+    z-index: 10000000;
+    background-color: white;
+    width: 200px;
+    visibility: hidden;
+    padding: 12px;
+    margin-top: -1px;
+}
+
+.dropmenudiv a {
+    width: auto;
+    display: block;
+    text-indent: 3px;
+    border-bottom: 1px solid #eee; /*THEME CHANGE HERE*/
+    padding: 3px 0;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+}
+
+* html .dropmenudiv a {
+    /*IE only hack*/
+    width: 100%;
+}
+
+.dropmenudiv a:hover {
+    /*THEME CHANGE HERE*/
+    text-decoration: underline;
+}
+
+/*---------------------------------- Flexcrollstyle -----------------------------------------*/
+
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+/*  scrollgeneric is used for corrective styling of elements, and should not be modified or removed */
+.scrollgeneric {
+    line-height: 1px;
+    font-size: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.vscrollerbar {
+    width: 7px;
+    background: url(http://media.monsterindia.com/monster_2012/scroller_top.png) left top no-repeat;
+}
+
+.vscrollerbarbeg {
+    background: url(http://media.monsterindia.com/monster_2012/scroller_bg2.png) repeat-y left bottom;
+    margin-top: 5px;
+    height: auto;
+    width: 7px;
+}
+
+.hscrollerbase {
+    height: 16px;
+    background-color: white;
+}
+
+.hscrollerbar {
+    height: 16px;
+    background-color: black;
+}
+
+.vscrollerbar, .hscrollerbar {
+    padding: 1px;
+    z-index: 2;
+}
+
+.scrollerjogbox {
+    width: 7px;
+    height: 16px;
+    top: auto;
+    left: auto;
+    bottom: 0px;
+    right: 0px;
+    background: #37917A;
+}
+
+/* Scroll Bar Master Styling Ends Here */
+
+
+
+#sliderWrap {
+    margin: 0 auto;
+    width: 998px;
+    background-color: #fdffd3;
+}
+
+#slider {
+    position: relative;
+    width: 998px;
+    height: 111px;
+    margin-top: -111px;
+    text-align: center;
+}
+
+#slider img {
+    border: 0;
+}
+
+#sliderContent {
+    position: absolute;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 130px;
+    * margin-left: -380px;
+}
+
+#openCloseWrap {
+    position: absolute;
+    margin-left: 870px;
+    * margin-left: 360px;
+    margin-top: 10px;
+}
+
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-right: 20px;
+    z-index: 100008;
+}
+
+.white_content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100009;
+    overflow: hidden;
+}
+
+.slidingDiv {
+    height: 262px;
+    background-color: #000000;
+    margin-top: -15px;
+    position: absolute;
+    width: 424px;
+    margin-left: -231px;
+    text-align: center;
+}
+
+.show_hide {
+    display: none;
+}
+
+/* ------ Classes for Comapy profile */
+.company_profile {
+    width: 108px;
+    height: 16px;
+    cursor: pointer;
+    float: left
+}
+
+.company_profile .img {
+    width: 14px;
+    height: 16px;
+    margin-right: 3px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat left top;
+    float: left
+}
+
+.company_profile .txt {
+    color: #626161;
+    float: left;
+    font-size: 10.5px;
+}
+
+.company_profile:hover .img {
+    width: 14px;
+    height: 16px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat left bottom;
+    float: left
+}
+
+.company_profile:hover .txt {
+    color: #000000;
+    float: left
+}
+
+.similar_jobs {
+    width: 83px;
+    height: 16px;
+    margin: 0px 0px 0px 8px;
+    cursor: pointer;
+    float: left
+}
+
+.similar_jobs .img {
+    width: 12px;
+    height: 16px;
+    margin-right: 3px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -19px 1px;
+    float: left
+}
+
+.similar_jobs .txt {
+    color: #626161;
+    float: left;
+    font-size: 10.5px;
+}
+
+.similar_jobs:hover .img {
+    width: 12px;
+    height: 16px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -19px -23px;
+    float: left
+}
+
+.similar_jobs:hover .txt {
+    color: #000000;
+    float: left
+}
+
+.jobs_by {
+    width: 154px;
+    height: 16px;
+    margin: 0px 0px 0px 8px;
+    cursor: pointer;
+    float: left
+}
+
+.jobs_by .img {
+    width: 12px;
+    height: 16px;
+    margin-right: 3px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -34px 1px;
+    float: left
+}
+
+.jobs_by .txt {
+    color: #626161;
+    float: left;
+    font-size: 10.5px;
+}
+
+.jobs_by:hover .img {
+    width: 12px;
+    height: 16px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -34px -23px;
+    float: left
+}
+
+.jobs_by:hover .txt {
+    color: #000000;
+    float: left
+}
+
+.share_this {
+    width: 47px;
+    height: 16px;
+    margin: 0px 0px 0px 8px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+
+.share_this .img {
+    width: 12px;
+    height: 16px;
+    margin-right: 3px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -50px 1px;
+    float: left
+}
+
+.share_this .txt {
+    color: #626161;
+    float: left;
+    font-size: 10.5px;
+}
+
+.share_this:hover .img {
+    width: 12px;
+    height: 16px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -50px -23px;
+    float: left
+}
+
+.share_this:hover .txt {
+    color: #000000;
+    float: left
+}
+
+.video_profile {
+    width: 86px;
+    height: 16px;
+    margin: 0px 0px 0px 8px;
+    cursor: pointer;
+    float: left
+}
+
+.video_profile .img {
+    width: 12px;
+    height: 16px;
+    margin-right: 3px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -67px 1px;
+    float: left
+}
+
+.video_profile .txt {
+    color: #626161;
+    float: left;
+    font-size: 10.5px;
+}
+
+.video_profile:hover .img {
+    width: 12px;
+    height: 16px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -67px -23px;
+    float: left
+}
+
+.video_profile:hover .txt {
+    color: #000000;
+    float: left
+}
+
+.email_this {
+    width: 73px;
+    height: 16px;
+    margin: 0px 0px 0px 8px;
+    cursor: pointer;
+    float: left
+}
+
+.email_this .img {
+    width: 14px;
+    height: 16px;
+    margin-right: 3px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -82px 3px;
+    float: left
+}
+
+.email_this .txt {
+    color: #626161;
+    float: left;
+    font-size: 10.5px;
+}
+
+.email_this:hover .img {
+    width: 14px;
+    height: 16px;
+    background: url(http://media.monsterindia.com/monster_2012/icon_results.png) no-repeat -82px -21px;
+    float: left
+}
+
+.email_this:hover .txt {
+    color: #000000;
+    float: left
+}
+
+.company_profile1 {
+    background: url(http://media.monsterindia.com/monster_2012/icon_companyprofile.png) no-repeat right 4px;
+    padding-right: 14px;
+}
+
+.company_profile1:hover {
+    background: url(http://media.monsterindia.com/monster_2012/icon_companyprofile.png) no-repeat right -20px;
+    padding-right: 14px;
+}
+
+.drop {
+    width: 420px;
+    position: absolute;
+    background: #efefef;
+    top: 14px;
+    right: -119px;
+    display: none;
+    height: 30px;
+}
+
+.drop .inner {
+    padding: 5px 10px 5px 0px;
+    float: left;
+    text-align: center
+}
+
+/*----------------------- New Header Css Start -------------------------------*/
+body {
+    background: url(http://media.monsterindia.com/v2/recruiter/2.1/new_search/body-bg.gif) repeat;
+}
+
+/*new header style */
+.ns_header {
+    width: 100%;
+    height: 46px;
+    background: #72469b;
+    position: fixed;
+    z-index: 10;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 800;
+}
+
+.ns_header.top_banner {
+    height: 136px;
+}
+
+.ns_header_inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.ns_logo_wrap {
+    display: block;
+    width: 210px;
+    height: 46px;
+    border: 0;
+    border-right: 1px #5b387c solid;
+    outline: 0;
+    text-decoration: none;
+    background: url(http://media.monsterindia.com/seeker_2014/logo.jpg) center center no-repeat;
+}
+
+.ns_menu_item_wrap {
+    position: relative;
+}
+
+.ns_menu_item {
+    display: block;
+    padding: 0px 15px;
+    line-height: 46px;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    border-left: 1px #8e6ab0 solid;
+    border-right: 1px #5b387c solid;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.ns_menu_item.mpowericon {
+    width: 80px;
+    height: 46px;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -172px 6px;
+}
+
+.ns_menu_item_wrap:hover, .ns_menu_item_wrap.active {
+    background: #ffffff;
+}
+
+.ns_menu_item_wrap:hover .ns_menu_item, .ns_menu_item_wrap.active .ns_menu_item {
+    color: #660099;
+}
+
+.ns_menu_item_wrap:hover .ns_menu_item.mpowericon, .ns_menu_item_wrap.active .ns_menu_item.mpowericon {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -172px -34px;
+}
+
+.ns_menu_item_wrap .ns_dropdown {
+    position: absolute;
+    display: none;
+    top: 46px;
+    left: -2px;
+    cursor: default;
+    width: 510px;
+    z-index: 999;
+}
+
+.ns_menu_item_wrap .ns_dropdown_inner {
+    border: 3px #72469b solid;
+    border-top: 0;
+    width: auto;
+    background: #ffffff;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    display: table;
+}
+
+.ns_dd_link_wrap {
+    width: 220px;
+    display: table-cell;
+}
+
+.ns_dd_link {
+    display: block;
+    color: #660099;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: left;
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+.ns_dd_link:hover {
+    background: #72469b;
+    color: #ffffff;
+}
+
+.ns_dd_seperator {
+    display: table-cell;
+    width: 1px;
+    background: rgb(139, 93, 181); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhiNWRiNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM1JSIgc3RvcC1jb2xvcj0iI2QyYWRkNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjY4JSIgc3RvcC1jb2xvcj0iI2QyYWRkNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2MjJhOTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(139, 93, 181, 1) 0%, rgba(210, 173, 214, 1) 35%, rgba(210, 173, 214, 1) 68%, rgba(98, 42, 149, 1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(139, 93, 181, 1)), color-stop(35%, rgba(210, 173, 214, 1)), color-stop(68%, rgba(210, 173, 214, 1)), color-stop(100%, rgba(98, 42, 149, 1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(139, 93, 181, 1) 0%, rgba(210, 173, 214, 1) 35%, rgba(210, 173, 214, 1) 68%, rgba(98, 42, 149, 1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(139, 93, 181, 1) 0%, rgba(210, 173, 214, 1) 35%, rgba(210, 173, 214, 1) 68%, rgba(98, 42, 149, 1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(139, 93, 181, 1) 0%, rgba(210, 173, 214, 1) 35%, rgba(210, 173, 214, 1) 68%, rgba(98, 42, 149, 1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(139, 93, 181, 1) 0%, rgba(210, 173, 214, 1) 35%, rgba(210, 173, 214, 1) 68%, rgba(98, 42, 149, 1) 100%); /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8b5db5', endColorstr='#622a95', GradientType=0 ); /* IE6-8 */
+}
+
+.ns_dd_othertxt {
+    width: 279px;
+    display: table-cell;
+    padding: 10px;
+    background: #f3f3f3;
+}
+
+.ns_other_h {
+    font-size: 13px;
+    color: #252525;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+ul.ns_other_link {
+    color: #660099;
+    list-style: none;
+    margin: 0px 5px;
+    padding: 0px;
+}
+
+ul.ns_other_link li {
+    display: block;
+}
+
+ul.ns_other_link li a {
+    text-decoration: none;
+    color: #252525;
+    font-size: 13px;
+    display: block;
+    line-height: 26px;
+}
+
+ul.ns_other_link li a:hover {
+    font-weight: bold;
+}
+
+.ns_dd_other_txt {
+    font-size: 12px;
+    color: #252525;
+    margin-bottom: 10px;
+}
+
+.ns_dd_other_txt a {
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.ns_dd_other_txt a:hover {
+    text-decoration: underline;
+}
+
+.ns_dd_golink {
+    color: #666666;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.ns_dd_golink:hover {
+    text-decoration: underline;
+}
+
+.ns_access_btn {
+    width: 162px;
+    height: 36px;
+    background: #8e6baf;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.ns_access_btn .ns_btn {
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    float: left;
+    width: 80px;
+}
+
+.ns_access_btn .ns_btn.ns_joinus {
+    border-right: 1px #5b387c solid;
+}
+
+.ns_access_btn .ns_btn.ns_signin {
+    border-left: 1px #a689bf solid;
+}
+
+.ns_access_btn.ns_loggedin {
+    width: 80px;
+}
+
+.ns_topbanner_wrap {
+    width: 100%;
+    background: #000000;
+    height: 90px;
+    text-align: center;
+}
+
+.ns_topbanner {
+    width: 100%;
+    background: #000000;
+    height: 90px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.ns_topbanner_space {
+    width: 728px;
+    margin: 0 auto;
+    height: 90px;
+}
+
+.ns_lt, .left {
+    float: left;
+}
+
+.ns_rt {
+    float: right;
+}
+
+.ns_clr {
+    clear: both;
+}
+
+.bodyspace_fix {
+    height: 46px;
+}
+
+.bodyspace_fix.top_banner {
+    height: 136px;
+}
+
+.ns_profile_wrap {
+    width: 162px;
+    height: 46px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.ns_profile_wrap:hover {
+    background: #ffffff;
+}
+
+.ns_login_icon_wrap {
+    overflow: hidden;
+}
+
+.ns_login_icon {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -103px -22px;
+    width: 18px;
+    height: 18px;
+    margin-top: 14px;
+    margin-right: 5px;
+}
+
+.ns_username_wrap {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.ns_username {
+    line-height: 24px;
+    color: #b692cc;
+    font-weight: bold;
+    width: 130px;
+    border-bottom: 1px #a880c0 solid;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ns_profile_wrap:hover .ns_username {
+    border-bottom: none;
+}
+
+.ns_userinfo {
+    cursor: default;
+    position: absolute;
+    top: 46px;
+    right: -3px;
+    width: 350px;
+    background: #ffffff;
+    display: none;
+    z-index: 100;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px #72469b solid;
+    border-top: 0;
+}
+
+.ns_userinfo_inner {
+    padding: 10px;
+    height: 100px;
+    border-bottom: 1px #dddddd solid;
+}
+
+.ns_user_recentactivity {
+    height: 40px;
+    background: #f3f3f3;
+    box-shadow: inset 0 4px 5px -4px rgba(0, 0, 0, 0.4);
+}
+
+.ns_avatar_wrap {
+    width: 46px;
+    height: 53px;
+    border: 5px #f3f3f3 solid;
+    margin-right: 10px;
+}
+
+.ns_avatar_wrap img {
+    width: 46px;
+    height: 53px;
+    border: 0;
+    outline: 0;
+}
+
+.ns_uinfo_wrap {
+    width: 260px;
+    overflow: hidden;
+}
+
+.ns_uname {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    color: #252525;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+.ns_contacticon {
+    width: 20px;
+    height: 22px;
+    overflow: hidden;
+}
+
+.ns_contacticon.ns_email {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -176px -77px;
+}
+
+.ns_contacticon.ns_cellphone {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -176px -101px;
+}
+
+.ns_emailid_wrap {
+    margin-bottom: 5px;
+    margin-left: 6px;
+}
+
+.ns_emailid {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+    color: #4574b6;
+    font-size: 13px;
+}
+
+.ns_cellnumber_wrap {
+    margin-bottom: 5px;
+    margin-left: 6px;
+}
+
+.ns_cellnumber {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5px;
+    color: #252525;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.ns_recentactivity_h {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 40px;
+    color: #660099;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.ns_recentactivity_btn {
+    cursor: pointer;
+    outline: 0;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #333333;
+    display: block;
+    line-height: 24px;
+    padding: 0px 10px;
+    background: #e5e5e5;
+    border: 1px #cecece solid;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.ns_recentactivity_btn:hover {
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .5);
+}
+
+.ns_recentactivity_btn.ns_logout {
+    background: #635a93;
+    color: #ffffff;
+}
+
+.ns_recruiterlogin {
+    width: 250px;
+    background: #fef9c2;
+    height: 46px;
+    box-shadow: inset 4px 0 6px -4px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: inset 4px 0 6px -4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 4px 0 6px -4px rgba(0, 0, 0, 0.6);
+}
+
+.ns_rec_link {
+    text-align: center;
+    position: relative;
+    height: 46px;
+    color: #7761ad;
+    line-height: 46px;
+    width: 100%;
+}
+
+.ns_main_link {
+    color: #7761ad;
+    font-size: 14px;
+    margin-right: 5px;
+    text-decoration: underline;
+}
+
+.ns_main_link.ns_changemargin {
+    margin-right: 0;
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.ns_main_link.ns_changemargin:hover {
+    text-decoration: none;
+}
+
+.ns_reclogin_box {
+    position: absolute;
+    top: 16px;
+    right: 0px;
+    width: 160px;
+    background: #ffffff;
+    border: 3px #72469b solid;
+    padding: 10px 0px;
+    background: #ffffff;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    box-shadow: 1px 1px 3px 0px rgba(154, 67, 237, 1);
+    display: none;
+}
+
+.ns_reclogin_box .ns_reclinks {
+    display: block;
+    color: #660099;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: left;
+    line-height: 28px;
+    padding-left: 10px;
+}
+
+.ns_reclogin_box .ns_reclinks:hover {
+    background: #72469b;
+    color: #ffffff;
+}
+
+.ns_brandmaximizer {
+    width: 100%;
+    position: relative;
+    height: 0;
+}
+
+.ns_brandmaximizer_inner {
+    display: none;
+}
+
+.ns_brandmaximizer_popup {
+    position: absolute;
+    z-index: 1001;
+    width: 400px;
+    height: 300px;
+    left: -700px;
+    top: -160px;
+    border: 2px #660099 solid;
+    display: none;
+}
+
+.ns_brandmaximizer_popup_close_wrap {
+    position: relative;
+    width: 100%;
+}
+
+.ns_brandmaximizer_popup_close {
+    top: -30px;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -73px -120px;
+    width: 32px;
+    height: 32px;
+    right: -20px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.ns_brandmaximizer_fade {
+    background: rgb(0, 0, 0);
+    background: #252525;
+    opacity: 0.5;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+@media all and (min-width:1350px)
+{
+    .ns_header_inner {
+        width: 1350px;
+    }
+}
+
+@media all and (max-width:1100px)
+{
+    .ns_recruiterlogin {
+        width: 175px;
+        font-size: 13px;
+    }
+
+    .ns_main_link {
+        font-size: 13px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .ns_main_link.ns_changemargin {
+        margin: 0px 5px 0px 0px;
+    }
+}
+
+@media all and (max-width:1024px)
+{
+    .ns_header_inner, .ns_topbanner {
+        width: 1000px;
+    }
+}
+
+@media \0screen
+{
+    .ns_header_inner, .ns_topbanner {
+        width: 1000px;
+    }
+
+    .ns_recruiterlogin {
+        width: 175px;
+        font-size: 13px;
+    }
+
+    .ns_main_link {
+        font-size: 13px;
+        margin: 0px 0px 0px 5px;
+    }
+
+    .ns_main_link.ns_changemargin {
+        margin: 0px 5px 0px 0px;
+    }
+
+    body {
+        overflow: scroll;
+    }
+}
+
+.ns_popup_fade {
+    background: rgb(0, 0, 0);
+    background: transparent\9;
+    background: rgba(0, 0, 0, 0.5);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#4c000000, endColorstr=#4c000000);
+    zoom: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: none;
+}
+
+.ns_popup_wrapper {
+    position: fixed;
+    left: 50%;
+    top: 100px;
+    z-index: 10000;
+    display: none;
+}
+
+.ns_popup_main {
+    background: #ffffff;
+    position: relative;
+    height: auto;
+    border: 1px #bfbfbf solid;
+    padding-bottom: 10px;
+    text-align: left;
+    border: 5px solid #3d1365;
+    left: -50%;
+    min-width: 200px;
+    width: auto;
+    min-height: 50px;
+    height: auto;
+}
+
+.np_popup_header {
+    height: 40px;
+    position: relative;
+    background: #8259a8;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8259a8), color-stop(51%, #8259a8), color-stop(51%, #632f93), color-stop(100%, #632f93));
+    background: -webkit-linear-gradient(top, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    background: -o-linear-gradient(top, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    background: -ms-linear-gradient(top, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    background: linear-gradient(to bottom, #8259a8 0%, #8259a8 51%, #632f93 51%, #632f93 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#8259a8', endColorstr='#632f93', GradientType=0 );
+}
+
+.np_pop_heading {
+    font-size: 18px;
+    line-height: 40px;
+    color: #ffffff;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.mn_popclose_btn {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -73px -120px;
+    cursor: pointer;
+}
+
+.mn_popupmain_text {
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    color: #252525;
+}
+
+.ns_popup_main .button {
+    background: #7f7f7f;
+    padding: 5px 20px;
+    color: #fff;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+}
+
+

@@ -1,0 +1,613 @@
+.search_wrap {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.search_tab_wrap {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.search_tab_wrap.mrgn {
+    margin-bottom: 10px;
+}
+
+.search_tab_cell {
+    width: auto;
+    display: table-cell;
+    height: 42px;
+    vertical-align: top;
+}
+
+.search_tab_cell.recent {
+    width: 276px;
+    position: relative;
+}
+
+ul.search_tab_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.search_tab_list li {
+    height: 42px;
+}
+
+ul.search_tab_list li a {
+    padding: 0px 20px;
+    line-height: 22px;
+    color: #787878;
+    border-right: 1px #8b8a8a solid;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+ul.search_tab_list li a.rmv_rbr {
+    border-right: none;
+}
+
+ul.search_tab_list li a:hover {
+    color: #000000;
+}
+
+ul.search_tab_list li a.active {
+    border-right: none;
+    line-height: 42px;
+    color: #000000;
+    background: #ffffff;
+    margin-top: 0;
+    -webkit-box-shadow: 1px -1px 2px 0px rgba(107, 98, 147, 0.4);
+    -moz-box-shadow: 1px -1px 2px 0px rgba(107, 98, 147, 0.4);
+    box-shadow: 1px -1px 2px 0px rgba(107, 98, 147, 0.4);
+}
+
+.recent_wrap {
+    padding: 2px 5px;
+    background: rgb(255, 255, 255);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(240, 240, 240, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f0f0f0', GradientType=0 );
+    border: 3px #92a732 solid;
+    border-bottom: 0;
+    height: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.recent_item {
+    padding-left: 5px;
+    width: 135px;
+    line-height: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.recent_item.brdr {
+    border-right: 1px #bfbfbf solid;
+}
+
+.recent_item:hover {
+    background: #b494d1;
+}
+
+.recent_item .rec_count {
+    background: #8e6baf;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 2px 3px 1px 3px;
+    font-weight: bold;
+    line-height: 12px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.recent_item .txt {
+    color: #787878;
+    font-size: 13px;
+}
+
+.recent_item:hover .txt {
+    color: #ffffff;
+}
+
+.recent_item:hover .ns_rscount {
+    background: #ffffff;
+    color: #8e6baf;
+}
+
+.job_matching {
+    color: #787878;
+    font-size: 13px;
+    line-height: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.job_matching:hover {
+    color: #000000;
+}
+
+.rs_slidewrap {
+    position: absolute;
+    top: 20px;
+    height: 160px;
+    z-index: 99;
+    display: none;
+    left: -63px;
+}
+
+.rs_slidewrap .rm_slidedown {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    overflow-y: auto;
+    border: 4px #b494d1 solid;
+    background: #ffffff;
+}
+
+.rs_slidewrap .rm_slidedown a {
+    display: block;
+    line-height: 26px;
+    color: #252525;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: left;
+    padding: 0px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rs_slidewrap .rm_slidedown a:hover {
+    background: #f9f9f9;
+}
+
+.search_frmwrap {
+    padding: 10px;
+}
+
+.search_frminnr {
+    padding: 20px;
+    background: #efefef;
+    display: block;
+}
+
+.search_tab_cell.pdng20 {
+    padding-left: 20px;
+}
+
+.search_tab_cell.pdng15 {
+    padding-left: 15px;
+}
+
+.search_tab_cell.w160 {
+    width: 160px;
+}
+
+.search_tab_cell.w220 {
+    width: 220px;
+}
+
+.input_wrap {
+    height: 34px;
+    display: block;
+    border: 1px #bfbfbf solid;
+    overflow: hidden;
+    clear: both;
+    padding: 0px 5px;
+    background: #ffffff;
+}
+
+.input_wrap .input_txt {
+    width: 100%;
+    line-height: 34px;
+    padding: 0;
+    margin: 0;
+    color#343434;
+    border: 0;
+    outline: 0;
+    height: 34px;
+}
+
+.sbtn_wrap {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.sbtn {
+    width: 140px;
+    height: 36px;
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 36px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    text-align: right;
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) 0px -47px no-repeat;
+    padding-right: 15px;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    box-shadow: 1px 2px 1px #20a065;
+    -webkit-box-shadow: 1px 2px 1px #20a065;
+    -moz-box-shadow: 1px 2px 1px #20a065;
+    -o-box-shadow: 1px 2px 1px #20a065;
+}
+
+.sbtn:hover {
+    box-shadow: 2px 3px 4px #20a065;
+    -webkit-box-shadow: 2px 3px 4px #20a065;
+    -moz-box-shadow: 2px 3px 4px #20a065;
+    -o-box-shadow: 2px 3px 4px #20a065;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.sbtn:active {
+    box-shadow: inset 0px 0px 3px #000000;
+    -webkit-box-shadow: inset 0px 0px 3px #000000;
+    -moz-box-shadow: inset 0px 0px 3px #000000;
+    -o-box-shadow: inset 0px 0px 3px #000000;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.advancetxtwrap {
+    text-align: right;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.advancetxtwrap a {
+    color: #252525;
+    font-size: 12px;
+}
+
+.advancetxtwrap a:hover {
+    color: #673074;
+}
+
+.tab_main {
+    width: 100%;
+    background: #e4e4e4;
+    border-bottom: 4px #673074 solid;
+    height: 44px;
+}
+
+.tab_main .tab_item {
+    width: 25%;
+    cursor: pointer;
+    height: 44px;
+}
+
+.tab_main .tab_item:hover {
+    background: #ededed;
+}
+
+.tab_main .tab_item.active {
+    background: #673074;
+    color: #ffffff;
+}
+
+.tab_main .tab_item .icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 0px 10px;
+}
+
+.tab_main .tab_item .text {
+    color: #666666;
+    font-size: 16px;
+    line-height: 44px;
+}
+
+.tab_main .tab_item.active .text {
+    color: #ffffff;
+}
+
+.tab_content_wrap {
+    height: auto;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.tab_content {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.tab_content_wrap .loading_wrap {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background: #dedede url(http://media.monsterindia.com/seeker_2014/social/loading.gif) center center no-repeat;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.rsltmain_wrap {
+    padding: 10px 0px 0px 0px;
+}
+
+.rsltmain_item {
+    position: relative;
+}
+
+.rsltmain_item .logo_bg {
+    position: absolute;
+    right: 25px;
+    bottom: 10px;
+    width: 46px;
+    height: 14px;
+    display: none;
+}
+
+.rsltmain_item.walkin {
+    background: #f1fcff;
+}
+
+.rsltmain_item.walkin .logo_bg {
+    background: url(http://media.monsterindia.com/seeker_2014/social/walking_logo.png) no-repeat right bottom;
+    display: block;
+}
+
+.rsltmain_item.last {
+    padding-bottom: 0px;
+    border-bottom: 0;
+}
+
+.rsltmain_item .rsltmain_tbl {
+    display: table;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+.rsltmain_item .rsltmain_tbl .rsltmain_tblcell {
+    display: table-cell;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+    padding: 20px 15px 20px 25px;
+}
+
+.rsltmain_item .rsltmain_tbl .rsltmain_tblcell.follow_wrap {
+    width: 75px;
+    padding: 20px 25px 20px 15px;
+}
+
+.rsltmain_tblcell .logo_wrap {
+    margin-right: 15px;
+}
+
+.rsltmain_tblcell .logo_wrap.big {
+    width: 110px;
+    height: 40px;
+    background: url(http://media.monsterindia.com/seeker_2014/social/default_clogo.jpg) no-repeat left top;
+}
+
+.rsltmain_tblcell .logo_wrap.small {
+    width: 50px;
+    height: 50px;
+    background: url(http://media.monsterindia.com/seeker_2014/social/rec_default.jpg) no-repeat top center;
+    margin-left: 35px;
+    margin-right: 40px;
+}
+
+.rsltmain_tblcell .logo_wrap img {
+    width: 100%;
+    height: 100%;
+    outline: 0;
+}
+
+.follow_btn {
+    width: 75px;
+    border-radius: 4px;
+    background: #673074;
+    color: #ffffff;
+    text-align: center;
+    line-height: 24px;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+}
+
+.share_wrap {
+    height: 25px;
+    background: #f2f2f2;
+    border-bottom: 1px #bfbfbf solid;
+    padding: 0px 25px;
+}
+
+ul.share_innr {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.share_innr li {
+    height: 25px;
+    margin-right: 18px;
+}
+
+ul.share_innr li a {
+    display: block;
+    position: relative;
+    padding-left: 16px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #565656;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.share_innr li a .icon {
+    width: 15px;
+    height: 15px;
+    top: 5px;
+    position: absolute;
+    left: 0;
+}
+
+ul.share_innr li a.share .icon {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -62px -24px;
+}
+
+ul.share_innr li a.rec .icon {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -65px -5px;
+}
+
+ul.share_innr li a.similar .icon {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -46px -23px;
+}
+
+ul.share_innr li a.save .icon {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -355px -58px;
+}
+
+ul.share_innr li a.conn .icon {
+    background: url(http://media.monsterindia.com/seeker_2014/ns_combined.png) no-repeat -355px -78px;
+}
+
+.tooltip {
+    position: absolute;
+    width: 160px;
+    top: 17px;
+    left: -46px;
+    padding: 5px 0;
+    margin-top: 3px;
+    z-index: 49;
+    display: none;
+    cursor: auto;
+}
+
+.tooltip .tarrw {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-bottom-color: #252525;
+    border-width: 0 5px 5px;
+}
+
+.tooltip_innr {
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #252525;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    max-height: 180px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.tooltip_innr .name {
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.tab_main .tab_item.active .joblike {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -117px 0px;
+}
+
+.tab_main .tab_item .joblike {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -117px -30px;
+}
+
+.tab_main .tab_item.active .topjob {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat 1px -281px;
+}
+
+.tab_main .tab_item .topjob {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat 0px 0px;
+}
+
+.tab_main .tab_item .agentjob {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -117px -60px;
+}
+
+.tab_main .tab_item.active .agentjob {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -117px -90px;
+}
+
+.tab_main .tab_item .networkjob {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -117px -120px;
+}
+
+.tab_main .tab_item.active .networkjob {
+    background: url(http://media.monsterindia.com/seeker_2014/social/social_newicons.png) no-repeat -117px -150px;
+}
+
+.mrgn_lt {
+    margin-left: 20px;
+}
+
+.tab_main .tab_item.wauto {
+    width: auto;
+    float: none;
+}
+
+.tab_content_wrap.single {
+    padding-top: 0px;
+}
+
+.applied_txt {
+    font-size: 12px;
+    color: #656565;
+    line-height: 23px;
+}
+
+.applied_txt span {
+    font-weight: bold;
+}
+
+.advance_options {
+    display: none;
+}
+
+@media all and (min-width:1350px) {
+    .advance_adjust {
+        width: 579px;
+    }
+}
+
+
